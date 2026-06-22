@@ -26,10 +26,23 @@
 		
 		<!-- Definizioni -->
 		<variables>
+			<!-- Standard NMRA definitions -->
+			<xi:include href="http://jmri.org/xml/decoders/nmra/analogModeFunction.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/analogModeFunction_F12.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/analogModeFunction_F15.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/shortAndLongAddress.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddr.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddrDirection.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29address.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29analog.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29direction.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29speedSteps.xml"/>
-			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29analog.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddrDirection.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv21.22.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv21.22_F12.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv21.22_F15.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/decoderLockId16.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/userId.xml"/>
 			<!-- Definizioni Sircam -->
 			<xi:include href="/decoders/Sircam/variablesCV.xml"/>
 		</variables>
@@ -41,7 +54,8 @@
 		
 	</decoder>
 	
-	<xi:include href="/decoders/Sircam/advancedPanel.xml"/>
+	<xi:include href="/decoders/Sircam/randomPanel.xml"/>
 	<xi:include href="/decoders/Sircam/LEDnAUXPanel.xml"/>
+	<xi:include href="/decoders/Sircam/advancedPanel.xml"/>
 
 </decoder-config>

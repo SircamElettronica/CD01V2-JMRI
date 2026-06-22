@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/decoder.xsl"?>
+<!-- Copyright (C) Sircam Elettronica SRL 2026 All rights reserved -->
+
+<enumVal xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
+
+    <enumChoice choice="ROW" value="0">
+		<choice xml:lang="en">Function map row</choice>
+		<choice xml:lang="it">Riga mappa funzioni</choice>
+		<choice xml:lang="de">Funktionszuordnungszeile</choice>
+		<choice xml:lang="fr">Ligne de mappage des fonctions</choice>
+		<choice xml:lang="es">Fila de mapa de funciones</choice>
+		<choice xml:lang="pl">Wiersz mapowania funkcji</choice>
+		<choice xml:lang="hu">Funkciótérkép sor</choice>
+	</enumChoice>
+	
+	<enumChoice choice="FUNC" value="1">
+		<choice xml:lang="en">Function key</choice>
+		<choice xml:lang="it">Tasto funzioni</choice>
+		<choice xml:lang="de">Funktionstaste</choice>
+		<choice xml:lang="fr">Touche de fonction</choice>
+		<choice xml:lang="es">Tecla de función</choice>
+		<choice xml:lang="pl">Klawisz funkcyjny</choice>
+		<choice xml:lang="hu">Funkciógomb</choice>
+	</enumChoice>
+
+</enumVal>

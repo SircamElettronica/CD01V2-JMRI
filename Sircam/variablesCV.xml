@@ -7,14 +7,24 @@
 		   
 	<variable CV="7" item="Decoder Version" readOnly="yes" default="50">
 		<decVal/>
-		<label xml:lang="it">Versione Decoder: </label>
 		<label>Decoder Version</label>
+		<label xml:lang="it">Versione Decoder</label>
+		<label xml:lang="de">Decoder-Version</label>
+		<label xml:lang="fr">Version del Decoder</label>
+		<label xml:lang="es">Versión del Decodificador</label>
+		<label xml:lang="pl">Wersja Dekodera</label>
+		<label xml:lang="hu">Dekóder Verzió</label>
 	</variable>
 	
 	<variable CV="8" readOnly="yes" default="13" item="Manufacturer">
 		<decVal/>
-		<label xml:lang="it">ID Costruttore: </label>
 		<label>Manufacturer ID</label>
+		<label xml:lang="it">ID Costruttore</label>
+		<label xml:lang="de">Hersteller-ID</label>
+		<label xml:lang="fr">ID du Fabricant</label>
+		<label xml:lang="es">ID del Fabricante</label>
+		<label xml:lang="pl">ID Producenta</label>
+		<label xml:lang="hu">Gyártó ID</label>
 	</variable>
 
 	<variable item="Luminosita_LED1" CV="16.0.257" default="7">
@@ -1557,6 +1567,887 @@
 		<label xml:lang="es">Desvanecimiento de salida AUX 4: </label>
 		<label xml:lang="pl">Płynne wygaszanie AUX 4: </label>
 		<label xml:lang="hu">AUX 4 fokozatos kikapcsolása: </label>
+	</variable>
+	
+	<variable item="RANDOM_EN_1" CV="16.3.257" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 1 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 1</label>
+		<label xml:lang="de">Zufallsgenerator 1 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 1</label>
+		<label xml:lang="es">Habilitar generador aleatorio 1</label>
+		<label xml:lang="pl">Włączenie generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_2" CV="16.3.264" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 2 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 2</label>
+		<label xml:lang="de">Zufallsgenerator 2 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 2</label>
+		<label xml:lang="es">Habilitar generador aleatorio 2</label>
+		<label xml:lang="pl">Włączenie generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_3" CV="16.3.271" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 3 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 3</label>
+		<label xml:lang="de">Zufallsgenerator 3 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 3</label>
+		<label xml:lang="es">Habilitar generador aleatorio 3</label>
+		<label xml:lang="pl">Włączenie generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_4" CV="16.3.278" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 4 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 4</label>
+		<label xml:lang="de">Zufallsgenerator 4 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 4</label>
+		<label xml:lang="es">Habilitar generador aleatorio 4</label>
+		<label xml:lang="pl">Włączenie generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_5" CV="16.3.285" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 5 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 5</label>
+		<label xml:lang="de">Zufallsgenerator 5 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 5</label>
+		<label xml:lang="es">Habilitar generador aleatorio 5</label>
+		<label xml:lang="pl">Włączenie generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_6" CV="16.3.292" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 6 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 6</label>
+		<label xml:lang="de">Zufallsgenerator 6 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 6</label>
+		<label xml:lang="es">Habilitar generador aleatorio 6</label>
+		<label xml:lang="pl">Włączenie generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_7" CV="16.3.299" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 7 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 7</label>
+		<label xml:lang="de">Zufallsgenerator 7 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 7</label>
+		<label xml:lang="es">Habilitar generador aleatorio 7</label>
+		<label xml:lang="pl">Włączenie generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor engedélyezése</label>
+	</variable>
+
+	<variable item="RANDOM_EN_8" CV="16.3.306" mask="XXXXXXXV" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 8 enable</label>
+		<label xml:lang="it">Abilitazione generatore casuale 8</label>
+		<label xml:lang="de">Zufallsgenerator 8 aktivieren</label>
+		<label xml:lang="fr">Activer le générateur aléatoire 8</label>
+		<label xml:lang="es">Habilitar generador aleatorio 8</label>
+		<label xml:lang="pl">Włączenie generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor engedélyezése</label>
+	</variable>
+	
+	<variable item="RANDOM_AUTO_1" CV="16.3.257" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 1 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 1</label>
+		<label xml:lang="de">Zufallsgenerator 1 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 1</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 1</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_2" CV="16.3.264" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 2 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 2</label>
+		<label xml:lang="de">Zufallsgenerator 2 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 2</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 2</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_3" CV="16.3.271" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 3 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 3</label>
+		<label xml:lang="de">Zufallsgenerator 3 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 3</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 3</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_4" CV="16.3.278" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 4 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 4</label>
+		<label xml:lang="de">Zufallsgenerator 4 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 4</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 4</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_5" CV="16.3.285" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 5 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 5</label>
+		<label xml:lang="de">Zufallsgenerator 5 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 5</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 5</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_6" CV="16.3.292" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 6 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 6</label>
+		<label xml:lang="de">Zufallsgenerator 6 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 6</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 6</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_7" CV="16.3.299" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 7 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 7</label>
+		<label xml:lang="de">Zufallsgenerator 7 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 7</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 7</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+
+	<variable item="RANDOM_AUTO_8" CV="16.3.306" mask="XXXXXXVX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>Random generator 8 autotrigger</label>
+		<label xml:lang="it">Auto-attivazione generatore casuale 8</label>
+		<label xml:lang="de">Zufallsgenerator 8 Auto-Trigger</label>
+		<label xml:lang="fr">Auto-déclenchement du générateur aléatoire 8</label>
+		<label xml:lang="es">Auto-disparo del generador aleatorio 8</label>
+		<label xml:lang="pl">Automatyczne wyzwalanie generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor automatikus indítása</label>
+	</variable>
+	
+	<variable item="RANDOM_IN_SEL_1" CV="16.3.257" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 1 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 1</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 1</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 1</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 1</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_2" CV="16.3.264" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 2 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 2</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 2</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 2</label>
+		<label xml:lang="es">Selector di entrada del generador aleatorio 2</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_3" CV="16.3.271" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 3 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 3</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 3</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 3</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 3</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_4" CV="16.3.278" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 4 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 4</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 4</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 4</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 4</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_5" CV="16.3.285" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 5 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 5</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 5</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 5</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 5</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_6" CV="16.3.292" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 6 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 6</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 6</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 6</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 6</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_7" CV="16.3.299" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 7 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 7</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 7</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 7</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 7</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor bemenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_IN_SEL_8" CV="16.3.306" mask="XXXXXVXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 8 input selector</label>
+		<label xml:lang="it">Selettore ingresso generatore casuale 8</label>
+		<label xml:lang="de">Eingangswähler Zufallsgenerator 8</label>
+		<label xml:lang="fr">Sélecteur d'entrée du générateur aléatoire 8</label>
+		<label xml:lang="es">Selector de entrada del generador aleatorio 8</label>
+		<label xml:lang="pl">Selektor wejścia generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor bemenet választó</label>
+	</variable>
+	
+	<variable item="RANDOM_OUT_SEL_1" CV="16.3.257" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 1 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 1</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 1</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 1</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 1</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_2" CV="16.3.264" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 2 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 2</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 2</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 2</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 2</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_3" CV="16.3.271" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 3 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 3</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 3</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 3</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 3</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_4" CV="16.3.278" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 4 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 4</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 4</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 4</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 4</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_5" CV="16.3.285" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 5 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 5</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 5</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 5</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 5</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_6" CV="16.3.292" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 6 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 6</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 6</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 6</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 6</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_7" CV="16.3.299" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 7 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 7</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 7</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 7</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 7</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor kimenet választó</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_SEL_8" CV="16.3.306" mask="XXXXVXXX" default="0">
+		<xi:include href="/decoders/Sircam/rndTrigSrcOutLabels.xml"/>
+		<label>Random generator 8 output selector</label>
+		<label xml:lang="it">Selettore uscita generatore casuale 8</label>
+		<label xml:lang="de">Ausgangswähler Zufallsgenerator 8</label>
+		<label xml:lang="fr">Sélecteur de sortie du générateur aléatoire 8</label>
+		<label xml:lang="es">Selector de salida del generador aleatorio 8</label>
+		<label xml:lang="pl">Selektor wyjścia generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor kimenet választó</label>
+	</variable>
+	
+	<!-- ******************* RANDOM GENERATOR INPUT 1-8 ******************* -->
+	<variable item="RANDOM_IN_1" CV="16.3.258" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 1 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 1</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 1</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 1</label>
+		<label xml:lang="es">Entrada del generador aleatorio 1</label>
+		<label xml:lang="pl">Wejście generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_2" CV="16.3.265" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 2 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 2</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 2</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 2</label>
+		<label xml:lang="es">Entrada del generador aleatorio 2</label>
+		<label xml:lang="pl">Wejście generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_3" CV="16.3.272" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 3 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 3</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 3</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 3</label>
+		<label xml:lang="es">Entrada del generador aleatorio 3</label>
+		<label xml:lang="pl">Wejście generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_4" CV="16.3.279" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 4 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 4</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 4</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 4</label>
+		<label xml:lang="es">Entrada del generador aleatorio 4</label>
+		<label xml:lang="pl">Wejście generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_5" CV="16.3.286" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 5 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 5</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 5</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 5</label>
+		<label xml:lang="es">Entrada del generador aleatorio 5</label>
+		<label xml:lang="pl">Wejście generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_6" CV="16.3.293" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 6 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 6</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 6</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 6</label>
+		<label xml:lang="es">Entrada del generador aleatorio 6</label>
+		<label xml:lang="pl">Wejście generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_7" CV="16.3.300" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 7 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 7</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 7</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 7</label>
+		<label xml:lang="es">Entrada del generador aleatorio 7</label>
+		<label xml:lang="pl">Wejście generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor bemenete</label>
+	</variable>
+
+	<variable item="RANDOM_IN_8" CV="16.3.307" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 8 input</label>
+		<label xml:lang="it">Ingresso generatore casuale 8</label>
+		<label xml:lang="de">Eingang Zufallsgenerator 8</label>
+		<label xml:lang="fr">Entrée du générateur aléatoire 8</label>
+		<label xml:lang="es">Entrada del generador aleatorio 8</label>
+		<label xml:lang="pl">Wejście generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor bemenete</label>
+	</variable>
+	
+	<variable item="RANDOM_OUT_1" CV="16.3.259" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 1 output</label>
+		<label xml:lang="it">Uscita generatore casuale 1</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 1</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 1</label>
+		<label xml:lang="es">Salida del generador aleatorio 1</label>
+		<label xml:lang="pl">Wyjście generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_2" CV="16.3.266" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 2 output</label>
+		<label xml:lang="it">Uscita generatore casuale 2</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 2</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 2</label>
+		<label xml:lang="es">Salida del generador aleatorio 2</label>
+		<label xml:lang="pl">Wyjście generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_3" CV="16.3.273" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 3 output</label>
+		<label xml:lang="it">Uscita generatore casuale 3</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 3</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 3</label>
+		<label xml:lang="es">Salida del generador aleatorio 3</label>
+		<label xml:lang="pl">Wyjście generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_4" CV="16.3.280" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 4 output</label>
+		<label xml:lang="it">Uscita generatore casuale 4</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 4</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 4</label>
+		<label xml:lang="es">Salida del generador aleatorio 4</label>
+		<label xml:lang="pl">Wyjście generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_5" CV="16.3.287" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 5 output</label>
+		<label xml:lang="it">Uscita generatore casuale 5</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 5</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 5</label>
+		<label xml:lang="es">Salida del generador aleatorio 5</label>
+		<label xml:lang="pl">Wyjście generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_6" CV="16.3.294" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 6 output</label>
+		<label xml:lang="it">Uscita generatore casuale 6</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 6</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 6</label>
+		<label xml:lang="es">Salida del generador aleatorio 6</label>
+		<label xml:lang="pl">Wyjście generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_7" CV="16.3.301" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 7 output</label>
+		<label xml:lang="it">Uscita generatore casuale 7</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 7</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 7</label>
+		<label xml:lang="es">Salida del generador aleatorio 7</label>
+		<label xml:lang="pl">Wyjście generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor kimenete</label>
+	</variable>
+
+	<variable item="RANDOM_OUT_8" CV="16.3.308" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 8 output</label>
+		<label xml:lang="it">Uscita generatore casuale 8</label>
+		<label xml:lang="de">Ausgang Zufallsgenerator 8</label>
+		<label xml:lang="fr">Sortie du générateur aléatoire 8</label>
+		<label xml:lang="es">Salida del generador aleatorio 8</label>
+		<label xml:lang="pl">Wyjście generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor kimenete</label>
+	</variable>
+	
+	<variable item="RANDOM_TON_FIX_1" CV="16.3.260" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 1 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 1</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 1</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 1</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 1</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_2" CV="16.3.267" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 2 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 2</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 2</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 2</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 2</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_3" CV="16.3.274" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 3 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 3</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 3</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 3</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 3</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_4" CV="16.3.281" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 4 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 4</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 4</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 4</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 4</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_5" CV="16.3.288" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 5 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 5</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 5</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 5</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 5</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_6" CV="16.3.295" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 6 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 6</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 6</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 6</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 6</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_7" CV="16.3.302" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 7 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 7</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 7</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 7</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 7</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_FIX_8" CV="16.3.309" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 8 fixed ON time</label>
+		<label xml:lang="it">Tempo fisso ON generatore casuale 8</label>
+		<label xml:lang="de">Feste ON-Zeit Zufallsgenerator 8</label>
+		<label xml:lang="fr">Temps fixe ON du générateur aléatoire 8</label>
+		<label xml:lang="es">Tiempo fijo ON del generador aleatorio 8</label>
+		<label xml:lang="pl">Stały czas ON generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor fix BE ideje</label>
+	</variable>
+	
+	<variable item="RANDOM_TON_RND_1" CV="16.3.261" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 1 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 1</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 1</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 1</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 1</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_2" CV="16.3.268" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 2 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 2</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 2</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 2</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 2</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_3" CV="16.3.275" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 3 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 3</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 3</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 3</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 3</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_4" CV="16.3.282" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 4 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 4</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 4</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 4</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 4</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_5" CV="16.3.289" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 5 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 5</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 5</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 5</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 5</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_6" CV="16.3.296" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 6 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 6</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 6</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 6</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 6</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_7" CV="16.3.303" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 7 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 7</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 7</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 7</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 7</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TON_RND_8" CV="16.3.310" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 8 random ON time</label>
+		<label xml:lang="it">Tempo ON casuale generatore casuale 8</label>
+		<label xml:lang="de">Zufällige ON-Zeit Zufallsgenerator 8</label>
+		<label xml:lang="fr">Temps aléatoire ON du générateur aléatoire 8</label>
+		<label xml:lang="es">Tiempo aleatorio ON del generador aleatorio 8</label>
+		<label xml:lang="pl">Losowy czas ON generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor véletlen BE ideje</label>
+	</variable>
+	
+	<variable item="RANDOM_TOFF_FIX_1" CV="16.3.262" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 1 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 1</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 1</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 1</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 1</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_2" CV="16.3.269" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 2 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 2</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 2</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 2</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 2</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_3" CV="16.3.276" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 3 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 3</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 3</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 3</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 3</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_4" CV="16.3.283" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 4 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 4</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 4</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 4</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 4</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_5" CV="16.3.290" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 5 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 5</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 5</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 5</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 5</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_6" CV="16.3.297" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 6 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 6</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 6</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 6</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 6</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_7" CV="16.3.304" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 7 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 7</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 7</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 7</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 7</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_FIX_8" CV="16.3.311" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 8 fixed OFF time</label>
+		<label xml:lang="it">Tempo fisso OFF generatore casuale 8</label>
+		<label xml:lang="de">Feste OFF-Zeit Zufallsgenerator 8</label>
+		<label xml:lang="fr">Temps fixe OFF du générateur aléatoire 8</label>
+		<label xml:lang="es">Tiempo fijo OFF del generador aleatorio 8</label>
+		<label xml:lang="pl">Stały czas OFF generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor fix KI ideje</label>
+	</variable>
+	
+	<variable item="RANDOM_TOFF_RND_1" CV="16.3.263" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 1 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 1</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 1</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 1</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 1</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 1</label>
+		<label xml:lang="hu">1. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_2" CV="16.3.270" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 2 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 2</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 2</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 2</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 2</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 2</label>
+		<label xml:lang="hu">2. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_3" CV="16.3.277" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 3 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 3</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 3</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 3</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 3</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 3</label>
+		<label xml:lang="hu">3. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_4" CV="16.3.284" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 4 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 4</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 4</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 4</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 4</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 4</label>
+		<label xml:lang="hu">4. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_5" CV="16.3.291" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 5 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 5</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 5</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 5</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 5</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 5</label>
+		<label xml:lang="hu">5. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_6" CV="16.3.298" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 6 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 6</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 6</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 6</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 6</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 6</label>
+		<label xml:lang="hu">6. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_7" CV="16.3.305" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 7 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 7</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 7</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 7</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 7</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 7</label>
+		<label xml:lang="hu">7. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+
+	<variable item="RANDOM_TOFF_RND_8" CV="16.3.312" default="0">
+		<decVal min="0" max="255"/>
+		<label>Random generator 8 random OFF time</label>
+		<label xml:lang="it">Tempo OFF casuale generatore casuale 8</label>
+		<label xml:lang="de">Zufällige OFF-Zeit Zufallsgenerator 8</label>
+		<label xml:lang="fr">Temps aléatoire OFF du générateur aléatoire 8</label>
+		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 8</label>
+		<label xml:lang="pl">Losowy czas OFF generatora losowego 8</label>
+		<label xml:lang="hu">8. véletlenszerű generátor véletlen KI ideje</label>
 	</variable>
 
 	<constant item="PICV" default="31" comment="CV usata per l'indice primario PI"/>
