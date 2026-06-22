@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/decoder.xsl"?>
+<!-- Copyright (C) Sircam Elettronica SRL 2026 All rights reserved -->
+
+<enumVal xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
+
+    <enumChoice choice="ON/OFF" value="0">
+		<choice xml:lang="en">ON/OFF</choice>
+        <choice xml:lang="it">ON/OFF</choice>
+        <choice xml:lang="de">ON/OFF</choice>
+        <choice xml:lang="fr">ON/OFF</choice>
+        <choice xml:lang="es">ON/OFF</choice>
+        <choice xml:lang="pl">ON/OFF</choice>
+        <choice xml:lang="hu">BE/KI</choice>
+	</enumChoice>
+	
+    <enumChoice choice="ON/OFF Graduale" value="1">
+		<choice xml:lang="en">Gradual ON/OFF</choice>
+        <choice xml:lang="it">ON/OFF graduale</choice>
+        <choice xml:lang="de">Allmähliches ON/OFF</choice>
+        <choice xml:lang="fr">ON/OFF progressif</choice>
+        <choice xml:lang="es">ON/OFF gradual</choice>
+        <choice xml:lang="pl">Stopniowe ON/OFF</choice>
+        <choice xml:lang="hu">Fokozatos BE/KI</choice>
+	</enumChoice>
+	
+    <enumChoice choice="Neon" value="2">
+		<choice xml:lang="en">Neon</choice>
+        <choice xml:lang="it">Neon</choice>
+        <choice xml:lang="de">Neon</choice>
+        <choice xml:lang="fr">Néon</choice>
+        <choice xml:lang="es">Neon</choice>
+        <choice xml:lang="pl">Neon</choice>
+        <choice xml:lang="hu">Neon</choice>
+	</enumChoice>
+	
+    <enumChoice choice="Neon_Difettoso" value="3">
+		<choice xml:lang="en">Flickering Neon</choice>
+        <choice xml:lang="it">Neon difettoso</choice>
+        <choice xml:lang="de">Defektes Neon</choice>
+        <choice xml:lang="fr">Néon défectueux</choice>
+        <choice xml:lang="es">Neon defectuoso</choice>
+        <choice xml:lang="pl">Uszkodzony neon</choice>
+        <choice xml:lang="hu">Hibás neon</choice>
+	</enumChoice>
+	
+    <enumChoice choice="Timer 1" value="4">
+		<choice xml:lang="en">Timer 1</choice>
+        <choice xml:lang="it">Timer 1</choice>
+        <choice xml:lang="de">Timer 1</choice>
+        <choice xml:lang="fr">Minuteur 1</choice>
+        <choice xml:lang="es">Temporizzador 1</choice>
+        <choice xml:lang="pl">Timer 1</choice>
+        <choice xml:lang="hu">Időzítő 1</choice>
+	</enumChoice>
+	
+    <enumChoice choice="Timer 2" value="5">
+		<choice xml:lang="en">Timer 2</choice>
+        <choice xml:lang="it">Timer 2</choice>
+        <choice xml:lang="de">Timer 2</choice>
+        <choice xml:lang="fr">Minuteur 2</choice>
+        <choice xml:lang="es">Temporizzador 2</choice>
+        <choice xml:lang="pl">Timer 2</choice>
+        <choice xml:lang="hu">Időzítő 2</choice>
+	</enumChoice>
+	
+    <enumChoice choice="Timer 3" value="6">
+		<choice xml:lang="en">Timer 3</choice>
+        <choice xml:lang="it">Timer 3</choice>
+        <choice xml:lang="de">Timer 3</choice>
+        <choice xml:lang="fr">Minuteur 3</choice>
+        <choice xml:lang="es">Temporizzador 3</choice>
+        <choice xml:lang="pl">Timer 3</choice>
+        <choice xml:lang="hu">Időzítő 3</choice>
+	</enumChoice>
+
+</enumVal>

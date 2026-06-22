@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) Sircam Elettronica SRL 2026 All rights reserved -->
+
+<variables xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
+
+	<variable item="Luminosita_LED1" CV="16.0.257" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 1 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 1: </label>
+		<label xml:lang="de">Helligkeit LED 1: </label>
+		<label xml:lang="fr">Luminosité LED 1: </label>
+		<label xml:lang="es">Brillo LED 1: </label>
+		<label xml:lang="pl">Jasność LED 1: </label>
+		<label xml:lang="hu">LED 1 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED2" CV="16.0.258" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 2 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 2: </label>
+		<label xml:lang="de">Helligkeit LED 2: </label>
+		<label xml:lang="fr">Luminosité LED 2: </label>
+		<label xml:lang="es">Brillo LED 2: </label>
+		<label xml:lang="pl">Jasność LED 2: </label>
+		<label xml:lang="hu">LED 2 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED3" CV="16.0.259" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 3 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 3: </label>
+		<label xml:lang="de">Helligkeit LED 3: </label>
+		<label xml:lang="fr">Luminosité LED 3: </label>
+		<label xml:lang="es">Brillo LED 3: </label>
+		<label xml:lang="pl">Jasność LED 3: </label>
+		<label xml:lang="hu">LED 3 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED4" CV="16.0.260" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 4 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 4: </label>
+		<label xml:lang="de">Helligkeit LED 4: </label>
+		<label xml:lang="fr">Luminosité LED 4: </label>
+		<label xml:lang="es">Brillo LED 4: </label>
+		<label xml:lang="pl">Jasność LED 4: </label>
+		<label xml:lang="hu">LED 4 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED5" CV="16.0.261" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 5 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 5: </label>
+		<label xml:lang="de">Helligkeit LED 5: </label>
+		<label xml:lang="fr">Luminosité LED 5: </label>
+		<label xml:lang="es">Brillo LED 5: </label>
+		<label xml:lang="pl">Jasność LED 5: </label>
+		<label xml:lang="hu">LED 5 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED6" CV="16.0.262" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 6 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 6: </label>
+		<label xml:lang="de">Helligkeit LED 6: </label>
+		<label xml:lang="fr">Luminosité LED 6: </label>
+		<label xml:lang="es">Brillo LED 6: </label>
+		<label xml:lang="pl">Jasność LED 6: </label>
+		<label xml:lang="hu">LED 6 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED7" CV="16.0.263" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 7 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 7: </label>
+		<label xml:lang="de">Helligkeit LED 7: </label>
+		<label xml:lang="fr">Luminosité LED 7: </label>
+		<label xml:lang="es">Brillo LED 7: </label>
+		<label xml:lang="pl">Jasność LED 7: </label>
+		<label xml:lang="hu">LED 7 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED8" CV="16.0.264" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 8 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 8: </label>
+		<label xml:lang="de">Helligkeit LED 8: </label>
+		<label xml:lang="fr">Luminosité LED 8: </label>
+		<label xml:lang="es">Brillo LED 8: </label>
+		<label xml:lang="pl">Jasność LED 8: </label>
+		<label xml:lang="hu">LED 8 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED9" CV="16.0.265" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 9 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 9: </label>
+		<label xml:lang="de">Helligkeit LED 9: </label>
+		<label xml:lang="fr">Luminosité LED 9: </label>
+		<label xml:lang="es">Brillo LED 9: </label>
+		<label xml:lang="pl">Jasność LED 9: </label>
+		<label xml:lang="hu">LED 9 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED10" CV="16.0.266" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 10 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 10: </label>
+		<label xml:lang="de">Helligkeit LED 10: </label>
+		<label xml:lang="fr">Luminosité LED 10: </label>
+		<label xml:lang="es">Brillo LED 10: </label>
+		<label xml:lang="pl">Jasność LED 10: </label>
+		<label xml:lang="hu">LED 10 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED11" CV="16.0.267" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 11 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 11: </label>
+		<label xml:lang="de">Helligkeit LED 11: </label>
+		<label xml:lang="fr">Luminosité LED 11: </label>
+		<label xml:lang="es">Brillo LED 11: </label>
+		<label xml:lang="pl">Jasność LED 11: </label>
+		<label xml:lang="hu">LED 11 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED12" CV="16.0.268" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 12 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 12: </label>
+		<label xml:lang="de">Helligkeit LED 12: </label>
+		<label xml:lang="fr">Luminosité LED 12: </label>
+		<label xml:lang="es">Brillo LED 12: </label>
+		<label xml:lang="pl">Jasność LED 12: </label>
+		<label xml:lang="hu">LED 12 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED13" CV="16.0.269" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 13 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 13: </label>
+		<label xml:lang="de">Helligkeit LED 13: </label>
+		<label xml:lang="fr">Luminosité LED 13: </label>
+		<label xml:lang="es">Brillo LED 13: </label>
+		<label xml:lang="pl">Jasność LED 13: </label>
+		<label xml:lang="hu">LED 13 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED14" CV="16.0.270" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 14 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 14: </label>
+		<label xml:lang="de">Helligkeit LED 14: </label>
+		<label xml:lang="fr">Luminosité LED 14: </label>
+		<label xml:lang="es">Brillo LED 14: </label>
+		<label xml:lang="pl">Jasność LED 14: </label>
+		<label xml:lang="hu">LED 14 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED15" CV="16.0.271" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 15 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 15: </label>
+		<label xml:lang="de">Helligkeit LED 15: </label>
+		<label xml:lang="fr">Luminosité LED 15: </label>
+		<label xml:lang="es">Brillo LED 15: </label>
+		<label xml:lang="pl">Jasność LED 15: </label>
+		<label xml:lang="hu">LED 15 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_LED16" CV="16.0.272" default="7">
+		<decVal min="0" max="15"/>
+		<label>LED 16 Brightness: </label>
+		<label xml:lang="it">Luminosità LED 16: </label>
+		<label xml:lang="de">Helligkeit LED 16: </label>
+		<label xml:lang="fr">Luminosité LED 16: </label>
+		<label xml:lang="es">Brillo LED 16: </label>
+		<label xml:lang="pl">Jasność LED 16: </label>
+		<label xml:lang="hu">LED 16 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_AUX1" CV="16.0.273" default="7">
+		<decVal min="0" max="15"/>
+		<label>AUX 1 Brightness: </label>
+		<label xml:lang="it">Luminosità AUX 1: </label>
+		<label xml:lang="de">Helligkeit AUX 1: </label>
+		<label xml:lang="fr">Luminosité AUX 1: </label>
+		<label xml:lang="es">Brillo AUX 1: </label>
+		<label xml:lang="pl">Jasność AUX 1: </label>
+		<label xml:lang="hu">AUX 1 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_AUX2" CV="16.0.274" default="7">
+		<decVal min="0" max="15"/>
+		<label>AUX 2 Brightness: </label>
+		<label xml:lang="it">Luminosità AUX 2: </label>
+		<label xml:lang="de">Helligkeit AUX 2: </label>
+		<label xml:lang="fr">Luminosité AUX 2: </label>
+		<label xml:lang="es">Brillo AUX 2: </label>
+		<label xml:lang="pl">Jasność AUX 2: </label>
+		<label xml:lang="hu">AUX 2 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_AUX3" CV="16.0.275" default="7">
+		<decVal min="0" max="15"/>
+		<label>AUX 3 Brightness: </label>
+		<label xml:lang="it">Luminosità AUX 3: </label>
+		<label xml:lang="de">Helligkeit AUX 3: </label>
+		<label xml:lang="fr">Luminosité AUX 3: </label>
+		<label xml:lang="es">Brillo AUX 3: </label>
+		<label xml:lang="pl">Jasność AUX 3: </label>
+		<label xml:lang="hu">AUX 3 Fényerő: </label>
+	</variable>
+	
+	<variable item="Luminosita_AUX4" CV="16.0.276" default="7">
+		<decVal min="0" max="15"/>
+		<label>AUX 4 Brightness: </label>
+		<label xml:lang="it">Luminosità AUX 4: </label>
+		<label xml:lang="de">Helligkeit AUX 4: </label>
+		<label xml:lang="fr">Luminosité AUX 4: </label>
+		<label xml:lang="es">Brillo AUX 4: </label>
+		<label xml:lang="pl">Jasność AUX 4: </label>
+		<label xml:lang="hu">AUX 4 Fényerő: </label>
+	</variable>
+	
+	<variable item="Configurazione_LED1" CV="16.0.277" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 1 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 1: </label>
+		<label xml:lang="de">Konfiguration LED 1: </label>
+		<label xml:lang="fr">Configuration LED 1: </label>
+		<label xml:lang="es">Configuración LED 1: </label>
+		<label xml:lang="pl">Konfiguracja LED 1: </label>
+		<label xml:lang="hu">LED 1 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED2" CV="16.0.278" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 2 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 2: </label>
+		<label xml:lang="de">Konfiguration LED 2: </label>
+		<label xml:lang="fr">Configuration LED 2: </label>
+		<label xml:lang="es">Configuración LED 2: </label>
+		<label xml:lang="pl">Konfiguracja LED 2: </label>
+		<label xml:lang="hu">LED 2 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED3" CV="16.0.279" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 3 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 3: </label>
+		<label xml:lang="de">Konfiguration LED 3: </label>
+		<label xml:lang="fr">Configuration LED 3: </label>
+		<label xml:lang="es">Configuración LED 3: </label>
+		<label xml:lang="pl">Konfiguracja LED 3: </label>
+		<label xml:lang="hu">LED 3 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED4" CV="16.0.280" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 4 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 4: </label>
+		<label xml:lang="de">Konfiguration LED 4: </label>
+		<label xml:lang="fr">Configuration LED 4: </label>
+		<label xml:lang="es">Configuración LED 4: </label>
+		<label xml:lang="pl">Konfiguracja LED 4: </label>
+		<label xml:lang="hu">LED 4 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED5" CV="16.0.281" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 5 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 5: </label>
+		<label xml:lang="de">Konfiguration LED 5: </label>
+		<label xml:lang="fr">Configuration LED 5: </label>
+		<label xml:lang="es">Configuración LED 5: </label>
+		<label xml:lang="pl">Konfiguracja LED 5: </label>
+		<label xml:lang="hu">LED 5 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED6" CV="16.0.282" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 6 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 6: </label>
+		<label xml:lang="de">Konfiguration LED 6: </label>
+		<label xml:lang="fr">Configuration LED 6: </label>
+		<label xml:lang="es">Configuración LED 6: </label>
+		<label xml:lang="pl">Konfiguracja LED 6: </label>
+		<label xml:lang="hu">LED 6 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED7" CV="16.0.283" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 7 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 7: </label>
+		<label xml:lang="de">Konfiguration LED 7: </label>
+		<label xml:lang="fr">Configuration LED 7: </label>
+		<label xml:lang="es">Configuración LED 7: </label>
+		<label xml:lang="pl">Konfiguracja LED 7: </label>
+		<label xml:lang="hu">LED 7 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED8" CV="16.0.284" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 8 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 8: </label>
+		<label xml:lang="de">Konfiguration LED 8: </label>
+		<label xml:lang="fr">Configuration LED 8: </label>
+		<label xml:lang="es">Configuración LED 8: </label>
+		<label xml:lang="pl">Konfiguracja LED 8: </label>
+		<label xml:lang="hu">LED 8 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED9" CV="16.0.285" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 9 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 9: </label>
+		<label xml:lang="de">Konfiguration LED 9: </label>
+		<label xml:lang="fr">Configuration LED 9: </label>
+		<label xml:lang="es">Configuración LED 9: </label>
+		<label xml:lang="pl">Konfiguracja LED 9: </label>
+		<label xml:lang="hu">LED 9 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED10" CV="16.0.286" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 10 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 10: </label>
+		<label xml:lang="de">Konfiguration LED 10: </label>
+		<label xml:lang="fr">Configuration LED 10: </label>
+		<label xml:lang="es">Configuración LED 10: </label>
+		<label xml:lang="pl">Konfiguracja LED 10: </label>
+		<label xml:lang="hu">LED 10 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED11" CV="16.0.287" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 11 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 11: </label>
+		<label xml:lang="de">Konfiguration LED 11: </label>
+		<label xml:lang="fr">Configuration LED 11: </label>
+		<label xml:lang="es">Configuración LED 11: </label>
+		<label xml:lang="pl">Konfiguracja LED 11: </label>
+		<label xml:lang="hu">LED 11 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED12" CV="16.0.288" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 12 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 12: </label>
+		<label xml:lang="de">Konfiguration LED 12: </label>
+		<label xml:lang="fr">Configuration LED 12: </label>
+		<label xml:lang="es">Configuración LED 12: </label>
+		<label xml:lang="pl">Konfiguracja LED 12: </label>
+		<label xml:lang="hu">LED 12 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED13" CV="16.0.289" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 13 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 13: </label>
+		<label xml:lang="de">Konfiguration LED 13: </label>
+		<label xml:lang="fr">Configuration LED 13: </label>
+		<label xml:lang="es">Configuración LED 13: </label>
+		<label xml:lang="pl">Konfiguracja LED 13: </label>
+		<label xml:lang="hu">LED 13 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED14" CV="16.0.290" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 14 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 14: </label>
+		<label xml:lang="de">Konfiguration LED 14: </label>
+		<label xml:lang="fr">Configuration LED 14: </label>
+		<label xml:lang="es">Configuración LED 14: </label>
+		<label xml:lang="pl">Konfiguracja LED 14: </label>
+		<label xml:lang="hu">LED 14 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED15" CV="16.0.291" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 15 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 15: </label>
+		<label xml:lang="de">Konfiguration LED 15: </label>
+		<label xml:lang="fr">Configuration LED 15: </label>
+		<label xml:lang="es">Configuración LED 15: </label>
+		<label xml:lang="pl">Konfiguracja LED 15: </label>
+		<label xml:lang="hu">LED 15 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_LED16" CV="16.0.292" default="2">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>LED 16 Configuration: </label>
+		<label xml:lang="it">Configurazione LED 16: </label>
+		<label xml:lang="de">Konfiguration LED 16: </label>
+		<label xml:lang="fr">Configuration LED 16: </label>
+		<label xml:lang="es">Configuración LED 16: </label>
+		<label xml:lang="pl">Konfiguracja LED 16: </label>
+		<label xml:lang="hu">LED 16 Beállítása: </label>
+	</variable>
+
+
+	<variable item="Configurazione_AUX1" CV="16.0.293" default="0">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>AUX 1 Configuration: </label>
+		<label xml:lang="it">Configurazione AUX 1: </label>
+		<label xml:lang="de">Konfiguration AUX 1: </label>
+		<label xml:lang="fr">Configuration AUX 1: </label>
+		<label xml:lang="es">Configuración AUX 1: </label>
+		<label xml:lang="pl">Konfiguracja AUX 1: </label>
+		<label xml:lang="hu">AUX 1 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_AUX2" CV="16.0.294" default="0">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>AUX 2 Configuration: </label>
+		<label xml:lang="it">Configurazione AUX 2: </label>
+		<label xml:lang="de">Konfiguration AUX 2: </label>
+		<label xml:lang="fr">Configuration AUX 2: </label>
+		<label xml:lang="es">Configuración AUX 2: </label>
+		<label xml:lang="pl">Konfiguracja AUX 2: </label>
+		<label xml:lang="hu">AUX 2 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_AUX3" CV="16.0.295" default="0">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>AUX 3 Configuration: </label>
+		<label xml:lang="it">Configurazione AUX 3: </label>
+		<label xml:lang="de">Konfiguration AUX 3: </label>
+		<label xml:lang="fr">Configuration AUX 3: </label>
+		<label xml:lang="es">Configuración AUX 3: </label>
+		<label xml:lang="pl">Konfiguracja AUX 3: </label>
+		<label xml:lang="hu">AUX 3 Beállítása: </label>
+	</variable>
+
+	<variable item="Configurazione_AUX4" CV="16.0.296" default="0">
+		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
+		<label>AUX 4 Configuration: </label>
+		<label xml:lang="it">Configurazione AUX 4: </label>
+		<label xml:lang="de">Konfiguration AUX 4: </label>
+		<label xml:lang="fr">Configuration AUX 4: </label>
+		<label xml:lang="es">Configuración AUX 4: </label>
+		<label xml:lang="pl">Konfiguracja AUX 4: </label>
+		<label xml:lang="hu">AUX 4 Beállítása: </label>
+	</variable>
+	
+	<variable item="AutoOFF_FIX_LED1" CV="16.0.297" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 1 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 1: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 1: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 1: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 1: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 1 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 1 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED2" CV="16.0.298" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 2 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 2: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 2: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 2: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 2: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 2 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 2 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED3" CV="16.0.299" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 3 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 3: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 3: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 3: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 3: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 3 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 3 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED4" CV="16.0.300" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 4 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 4: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 4: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 4: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 4: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 4 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 4 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED5" CV="16.0.301" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 5 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 5: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 5: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 5: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 5: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 5 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 5 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED6" CV="16.0.302" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 6 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 6: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 6: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 6: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 6: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 6 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 6 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED7" CV="16.0.303" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 7 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 7: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 7: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 7: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 7: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 7 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 7 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED8" CV="16.0.304" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 8 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 8: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 8: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 8: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 8: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 8 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 8 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED9" CV="16.0.305" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 9 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 9: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 9: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 9: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 9: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 9 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 9 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED10" CV="16.0.306" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 10 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 10: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 10: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 10: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 10: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 10 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 10 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED11" CV="16.0.307" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 11 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 11: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 11: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 11: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 11: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 11 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 11 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED12" CV="16.0.308" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 12 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 12: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 12: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 12: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 12: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 12 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 12 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED13" CV="16.0.309" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 13 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 13: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 13: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 13: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 13: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 13 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 13 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED14" CV="16.0.310" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 14 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 14: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 14: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 14: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 14: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 14 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 14 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED15" CV="16.0.311" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 15 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 15: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 15: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 15: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 15: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 15 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 15 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_LED16" CV="16.0.312" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 16 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso LED 16: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für LED 16: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la LED 16: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para LED 16: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie LED 16 po ustalonym czasie: </label>
+		<label xml:lang="hu">LED 16 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+	
+	<variable item="AutoOFF_FIX_AUX1" CV="16.0.313" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 1 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso AUX 1: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für AUX 1: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la AUX 1: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para AUX 1: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie AUX 1 po ustalonym czasie: </label>
+		<label xml:lang="hu">AUX 1 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_AUX2" CV="16.0.314" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 2 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso AUX 2: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für AUX 2: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la AUX 2: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para AUX 2: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie AUX 2 po ustalonym czasie: </label>
+		<label xml:lang="hu">AUX 2 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_AUX3" CV="16.0.315" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 3 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso AUX 3: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für AUX 3: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la AUX 3: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para AUX 3: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie AUX 3 po ustalonym czasie: </label>
+		<label xml:lang="hu">AUX 3 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+
+	<variable item="AutoOFF_FIX_AUX4" CV="16.0.316" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 4 Fixed-Time Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento tempo fisso AUX 4: </label>
+		<label xml:lang="de">Automatische Abschaltung mit fester Zeit für AUX 4: </label>
+		<label xml:lang="fr">Extinction automatique à durée fixe de la AUX 4: </label>
+		<label xml:lang="es">Apagado automático con tiempo fijo para AUX 4: </label>
+		<label xml:lang="pl">Automatyczne wyłączenie AUX 4 po ustalonym czasie: </label>
+		<label xml:lang="hu">AUX 4 automatikus kikapcsolása rögzített idő után: </label>
+	</variable>
+	
+	<variable item="AutoOFF_RAND_LED1" CV="16.0.317" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 1 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 1: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 1: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 1: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 1: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 1: </label>
+		<label xml:lang="hu">LED 1 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED2" CV="16.0.318" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 2 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 2: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 2: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 2: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 2: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 2: </label>
+		<label xml:lang="hu">LED 2 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED3" CV="16.0.319" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 3 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 3: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 3: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 3: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 3: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 3: </label>
+		<label xml:lang="hu">LED 3 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED4" CV="16.0.320" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 4 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 4: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 4: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 4: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 4: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 4: </label>
+		<label xml:lang="hu">LED 4 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED5" CV="16.0.321" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 5 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 5: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 5: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 5: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 5: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 5: </label>
+		<label xml:lang="hu">LED 5 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED6" CV="16.0.322" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 6 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 6: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 6: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 6: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 6: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 6: </label>
+		<label xml:lang="hu">LED 6 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED7" CV="16.0.323" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 7 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 7: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 7: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 7: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 7: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 7: </label>
+		<label xml:lang="hu">LED 7 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED8" CV="16.0.324" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 8 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 8: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 8: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 8: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 8: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 8: </label>
+		<label xml:lang="hu">LED 8 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED9" CV="16.0.325" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 9 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 9: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 9: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 9: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 9: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 9: </label>
+		<label xml:lang="hu">LED 9 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED10" CV="16.0.326" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 10 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 10: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 10: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 10: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 10: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 10: </label>
+		<label xml:lang="hu">LED 10 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED11" CV="16.0.327" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 11 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 11: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 11: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 11: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 11: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 11: </label>
+		<label xml:lang="hu">LED 11 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED12" CV="16.0.328" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 12 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 12: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 12: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 12: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 12: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 12: </label>
+		<label xml:lang="hu">LED 12 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED13" CV="16.0.329" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 13 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 13: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 13: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 13: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 13: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 13: </label>
+		<label xml:lang="hu">LED 13 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED14" CV="16.0.330" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 14 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 14: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 14: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 14: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 14: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 14: </label>
+		<label xml:lang="hu">LED 14 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED15" CV="16.0.331" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 15 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 15: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 15: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 15: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 15: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 15: </label>
+		<label xml:lang="hu">LED 15 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_LED16" CV="16.0.332" default="0">
+		<decVal min="0" max="255"/>
+		<label>LED 16 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale LED 16: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für LED 16: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de la LED 16: </label>
+		<label xml:lang="es">Apagado automático aleatorio para LED 16: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie LED 16: </label>
+		<label xml:lang="hu">LED 16 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_AUX1" CV="16.0.333" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 1 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale AUX 1: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für AUX 1: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de l'AUX 1: </label>
+		<label xml:lang="es">Apagado automático aleatorio para AUX 1: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie AUX 1: </label>
+		<label xml:lang="hu">AUX 1 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_AUX2" CV="16.0.334" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 2 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale AUX 2: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für AUX 2: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de l'AUX 2: </label>
+		<label xml:lang="es">Apagado automático aleatorio para AUX 2: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie AUX 2: </label>
+		<label xml:lang="hu">AUX 2 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_AUX3" CV="16.0.335" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 3 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale AUX 3: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für AUX 3: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de l'AUX 3: </label>
+		<label xml:lang="es">Apagado automático aleatorio para AUX 3: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie AUX 3: </label>
+		<label xml:lang="hu">AUX 3 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+
+	<variable item="AutoOFF_RAND_AUX4" CV="16.0.336" default="0">
+		<decVal min="0" max="255"/>
+		<label>AUX 4 Random Auto-Off: </label>
+		<label xml:lang="it">Autospegnimento casuale AUX 4: </label>
+		<label xml:lang="de">Zufällige automatische Abschaltung für AUX 4: </label>
+		<label xml:lang="fr">Extinction automatique aléatoire de l'AUX 4: </label>
+		<label xml:lang="es">Apagado automático aleatorio para AUX 4: </label>
+		<label xml:lang="pl">Losowe automatyczne wyłączenie AUX 4: </label>
+		<label xml:lang="hu">AUX 4 véletlenszerű automatikus kikapcsolása: </label>
+	</variable>
+	
+	<variable item="FADE_IN_LED1" CV="16.0.337" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 1 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 1: </label>
+		<label xml:lang="de">Einblendung LED 1: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 1: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 1: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 1: </label>
+		<label xml:lang="hu">LED 1 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED2" CV="16.0.338" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 2 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 2: </label>
+		<label xml:lang="de">Einblendung LED 2: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 2: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 2: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 2: </label>
+		<label xml:lang="hu">LED 2 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED3" CV="16.0.339" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 3 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 3: </label>
+		<label xml:lang="de">Einblendung LED 3: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 3: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 3: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 3: </label>
+		<label xml:lang="hu">LED 3 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED4" CV="16.0.340" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 4 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 4: </label>
+		<label xml:lang="de">Einblendung LED 4: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 4: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 4: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 4: </label>
+		<label xml:lang="hu">LED 4 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED5" CV="16.0.341" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 5 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 5: </label>
+		<label xml:lang="de">Einblendung LED 5: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 5: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 5: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 5: </label>
+		<label xml:lang="hu">LED 5 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED6" CV="16.0.342" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 6 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 6: </label>
+		<label xml:lang="de">Einblendung LED 6: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 6: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 6: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 6: </label>
+		<label xml:lang="hu">LED 6 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED7" CV="16.0.343" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 7 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 7: </label>
+		<label xml:lang="de">Einblendung LED 7: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 7: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 7: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 7: </label>
+		<label xml:lang="hu">LED 7 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED8" CV="16.0.344" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 8 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 8: </label>
+		<label xml:lang="de">Einblendung LED 8: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 8: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 8: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 8: </label>
+		<label xml:lang="hu">LED 8 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED9" CV="16.0.345" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 9 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 9: </label>
+		<label xml:lang="de">Einblendung LED 9: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 9: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 9: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 9: </label>
+		<label xml:lang="hu">LED 9 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED10" CV="16.0.346" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 10 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 10: </label>
+		<label xml:lang="de">Einblendung LED 10: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 10: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 10: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 10: </label>
+		<label xml:lang="hu">LED 10 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED11" CV="16.0.347" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 11 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 11: </label>
+		<label xml:lang="de">Einblendung LED 11: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 11: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 11: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 11: </label>
+		<label xml:lang="hu">LED 11 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED12" CV="16.0.348" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 12 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 12: </label>
+		<label xml:lang="de">Einblendung LED 12: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 12: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 12: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 12: </label>
+		<label xml:lang="hu">LED 12 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED13" CV="16.0.349" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 13 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 13: </label>
+		<label xml:lang="de">Einblendung LED 13: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 13: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 13: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 13: </label>
+		<label xml:lang="hu">LED 13 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED14" CV="16.0.350" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 14 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 14: </label>
+		<label xml:lang="de">Einblendung LED 14: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 14: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 14: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 14: </label>
+		<label xml:lang="hu">LED 14 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED15" CV="16.0.351" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 15 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 15: </label>
+		<label xml:lang="de">Einblendung LED 15: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 15: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 15: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 15: </label>
+		<label xml:lang="hu">LED 15 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_LED16" CV="16.0.352" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 16 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso LED 16: </label>
+		<label xml:lang="de">Einblendung LED 16: </label>
+		<label xml:lang="fr">Fondu d'entrée LED 16: </label>
+		<label xml:lang="es">Desvanecimiento de entrada LED 16: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie LED 16: </label>
+		<label xml:lang="hu">LED 16 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_AUX1" CV="16.0.353" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 1 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso AUX 1: </label>
+		<label xml:lang="de">Einblendung AUX 1: </label>
+		<label xml:lang="fr">Fondu d'entrée AUX 1: </label>
+		<label xml:lang="es">Desvanecimiento de entrada AUX 1: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie AUX 1: </label>
+		<label xml:lang="hu">AUX 1 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_AUX2" CV="16.0.354" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 2 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso AUX 2: </label>
+		<label xml:lang="de">Einblendung AUX 2: </label>
+		<label xml:lang="fr">Fondu d'entrée AUX 2: </label>
+		<label xml:lang="es">Desvanecimiento de entrada AUX 2: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie AUX 2: </label>
+		<label xml:lang="hu">AUX 2 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_AUX3" CV="16.0.355" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 3 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso AUX 3: </label>
+		<label xml:lang="de">Einblendung AUX 3: </label>
+		<label xml:lang="fr">Fondu d'entrée AUX 3: </label>
+		<label xml:lang="es">Desvanecimiento de entrada AUX 3: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie AUX 3: </label>
+		<label xml:lang="hu">AUX 3 fokozatos felkapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_IN_AUX4" CV="16.0.356" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 4 Fade-In: </label>
+		<label xml:lang="it">Dissolvenza in ingresso AUX 4: </label>
+		<label xml:lang="de">Einblendung AUX 4: </label>
+		<label xml:lang="fr">Fondu d'entrée AUX 4: </label>
+		<label xml:lang="es">Desvanecimiento de entrada AUX 4: </label>
+		<label xml:lang="pl">Płynne rozjaśnianie AUX 4: </label>
+		<label xml:lang="hu">AUX 4 fokozatos felkapcsolása: </label>
+	</variable>
+	
+	
+	<variable item="FADE_OUT_LED1" CV="16.0.357" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 1 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 1: </label>
+		<label xml:lang="de">Ausblendung LED 1: </label>
+		<label xml:lang="fr">Fondu de sortie LED 1: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 1: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 1: </label>
+		<label xml:lang="hu">LED 1 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED2" CV="16.0.358" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 2 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 2: </label>
+		<label xml:lang="de">Ausblendung LED 2: </label>
+		<label xml:lang="fr">Fondu de sortie LED 2: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 2: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 2: </label>
+		<label xml:lang="hu">LED 2 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED3" CV="16.0.359" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 3 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 3: </label>
+		<label xml:lang="de">Ausblendung LED 3: </label>
+		<label xml:lang="fr">Fondu de sortie LED 3: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 3: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 3: </label>
+		<label xml:lang="hu">LED 3 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED4" CV="16.0.360" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 4 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 4: </label>
+		<label xml:lang="de">Ausblendung LED 4: </label>
+		<label xml:lang="fr">Fondu de sortie LED 4: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 4: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 4: </label>
+		<label xml:lang="hu">LED 4 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED5" CV="16.0.361" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 5 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 5: </label>
+		<label xml:lang="de">Ausblendung LED 5: </label>
+		<label xml:lang="fr">Fondu de sortie LED 5: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 5: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 5: </label>
+		<label xml:lang="hu">LED 5 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED6" CV="16.0.362" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 6 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 6: </label>
+		<label xml:lang="de">Ausblendung LED 6: </label>
+		<label xml:lang="fr">Fondu de sortie LED 6: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 6: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 6: </label>
+		<label xml:lang="hu">LED 6 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED7" CV="16.0.363" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 7 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 7: </label>
+		<label xml:lang="de">Ausblendung LED 7: </label>
+		<label xml:lang="fr">Fondu de sortie LED 7: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 7: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 7: </label>
+		<label xml:lang="hu">LED 7 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED8" CV="16.0.364" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 8 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 8: </label>
+		<label xml:lang="de">Ausblendung LED 8: </label>
+		<label xml:lang="fr">Fondu de sortie LED 8: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 8: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 8: </label>
+		<label xml:lang="hu">LED 8 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED9" CV="16.0.365" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 9 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 9: </label>
+		<label xml:lang="de">Ausblendung LED 9: </label>
+		<label xml:lang="fr">Fondu de sortie LED 9: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 9: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 9: </label>
+		<label xml:lang="hu">LED 9 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED10" CV="16.0.366" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 10 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 10: </label>
+		<label xml:lang="de">Ausblendung LED 10: </label>
+		<label xml:lang="fr">Fondu de sortie LED 10: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 10: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 10: </label>
+		<label xml:lang="hu">LED 10 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED11" CV="16.0.367" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 11 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 11: </label>
+		<label xml:lang="de">Ausblendung LED 11: </label>
+		<label xml:lang="fr">Fondu de sortie LED 11: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 11: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 11: </label>
+		<label xml:lang="hu">LED 11 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED12" CV="16.0.368" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 12 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 12: </label>
+		<label xml:lang="de">Ausblendung LED 12: </label>
+		<label xml:lang="fr">Fondu de sortie LED 12: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 12: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 12: </label>
+		<label xml:lang="hu">LED 12 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED13" CV="16.0.369" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 13 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 13: </label>
+		<label xml:lang="de">Ausblendung LED 13: </label>
+		<label xml:lang="fr">Fondu de sortie LED 13: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 13: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 13: </label>
+		<label xml:lang="hu">LED 13 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED14" CV="16.0.370" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 14 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 14: </label>
+		<label xml:lang="de">Ausblendung LED 14: </label>
+		<label xml:lang="fr">Fondu de sortie LED 14: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 14: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 14: </label>
+		<label xml:lang="hu">LED 14 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED15" CV="16.0.371" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 15 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 15: </label>
+		<label xml:lang="de">Ausblendung LED 15: </label>
+		<label xml:lang="fr">Fondu de sortie LED 15: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 15: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 15: </label>
+		<label xml:lang="hu">LED 15 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_LED16" CV="16.0.372" default="1">
+		<decVal min="1" max="255"/>
+		<label>LED 16 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita LED 16: </label>
+		<label xml:lang="de">Ausblendung LED 16: </label>
+		<label xml:lang="fr">Fondu de sortie LED 16: </label>
+		<label xml:lang="es">Desvanecimiento de salida LED 16: </label>
+		<label xml:lang="pl">Płynne wygaszanie LED 16: </label>
+		<label xml:lang="hu">LED 16 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_AUX1" CV="16.0.373" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 1 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita AUX 1: </label>
+		<label xml:lang="de">Ausblendung AUX 1: </label>
+		<label xml:lang="fr">Fondu de sortie AUX 1: </label>
+		<label xml:lang="es">Desvanecimiento de salida AUX 1: </label>
+		<label xml:lang="pl">Płynne wygaszanie AUX 1: </label>
+		<label xml:lang="hu">AUX 1 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_AUX2" CV="16.0.374" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 2 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita AUX 2: </label>
+		<label xml:lang="de">Ausblendung AUX 2: </label>
+		<label xml:lang="fr">Fondu de sortie AUX 2: </label>
+		<label xml:lang="es">Desvanecimiento de salida AUX 2: </label>
+		<label xml:lang="pl">Płynne wygaszanie AUX 2: </label>
+		<label xml:lang="hu">AUX 2 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_AUX3" CV="16.0.375" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 3 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita AUX 3: </label>
+		<label xml:lang="de">Ausblendung AUX 3: </label>
+		<label xml:lang="fr">Fondu de sortie AUX 3: </label>
+		<label xml:lang="es">Desvanecimiento de salida AUX 3: </label>
+		<label xml:lang="pl">Płynne wygaszanie AUX 3: </label>
+		<label xml:lang="hu">AUX 3 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<variable item="FADE_OUT_AUX4" CV="16.0.376" default="1">
+		<decVal min="1" max="255"/>
+		<label>AUX 4 Fade-Out: </label>
+		<label xml:lang="it">Dissolvenza in uscita AUX 4: </label>
+		<label xml:lang="de">Ausblendung AUX 4: </label>
+		<label xml:lang="fr">Fondu de sortie AUX 4: </label>
+		<label xml:lang="es">Desvanecimiento de salida AUX 4: </label>
+		<label xml:lang="pl">Płynne wygaszanie AUX 4: </label>
+		<label xml:lang="hu">AUX 4 fokozatos kikapcsolása: </label>
+	</variable>
+
+	<constant item="PICV" default="31" comment="CV usata per l'indice primario PI"/>
+	<constant item="SICV" default="32" comment="CV usata per l'indice secondario SI"/>
+
+</variables>

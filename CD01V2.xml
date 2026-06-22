@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/decoder.xsl"?>
+<!-- Copyright (C) Sircam Elettronica SRL 2026 All rights reserved -->
+
+<decoder-config xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd" allowResetDefaults="no">
+	<version author="Nicola Camuffo" version="1" lastUpdated="20260619" />
+	<decoder>
+	
+		<!-- Modelli decoder -->
+		<family name="Illuminazione digitale" mfg="Sircam Elettronica">
+		  <model model="CD01V2" maxFnNum="31" numOuts="20"/>
+		</family>
+		
+		<!-- Modalità di programmazione -->
+		<programming direct="yes" paged="no" register="no" ops="yes">
+			<capability>
+				<name>Indexed CV access</name>
+				<parameter name="PI">31</parameter>
+				<parameter name="SI">32</parameter>
+				<parameter name="cvFirst">false</parameter>
+				<parameter name="skipDupIndexWrite">true</parameter>
+			</capability>
+		</programming>
+		
+		<!-- Definizioni -->
+		<variables>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/shortAndLongAddress.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29direction.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29speedSteps.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29analog.xml"/>
+			<!-- Definizioni Sircam -->
+			<xi:include href="/decoders/Sircam/variablesCV.xml"/>
+			
+			<variable CV="7" item="Decoder Version" readOnly="yes">
+				<decVal/>
+				<label xml:lang="it">Versione Decoder: </label>
+				<label>Decoder Version</label>
+			</variable>
+			
+			<variable CV="8" readOnly="yes" default="13" item="Manufacturer">
+				<decVal/>
+				<label xml:lang="it">ID Costruttore: </label>
+				<label>Manufacturer ID</label>
+			</variable>
+			
+		</variables>
+		
+		<!-- Reset valore di fabbrica -->
+		<resets>
+			<factReset label="Reset All CVs." CV="8" default="8"/>
+		</resets>
+		
+	</decoder>
+	
+	<xi:include href="/decoders/Sircam/advancedPanel.xml"/>
+	<xi:include href="/decoders/Sircam/LEDnAUXPanel.xml"/>
+
+</decoder-config>
