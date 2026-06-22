@@ -4,6 +4,18 @@
 <variables xmlns:xi="http://www.w3.org/2001/XInclude"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
+		   
+	<variable CV="7" item="Decoder Version" readOnly="yes" default="50">
+		<decVal/>
+		<label xml:lang="it">Versione Decoder: </label>
+		<label>Decoder Version</label>
+	</variable>
+	
+	<variable CV="8" readOnly="yes" default="13" item="Manufacturer">
+		<decVal/>
+		<label xml:lang="it">ID Costruttore: </label>
+		<label>Manufacturer ID</label>
+	</variable>
 
 	<variable item="Luminosita_LED1" CV="16.0.257" default="7">
 		<decVal min="0" max="15"/>
@@ -225,7 +237,7 @@
 		<label xml:lang="hu">AUX 4 Fényerő: </label>
 	</variable>
 	
-	<variable item="Configurazione_LED1" CV="16.0.277" default="2">
+	<variable item="Configurazione_LED1" CV="16.0.277" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 1 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 1: </label>
@@ -236,7 +248,7 @@
 		<label xml:lang="hu">LED 1 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED2" CV="16.0.278" default="2">
+	<variable item="Configurazione_LED2" CV="16.0.278" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 2 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 2: </label>
@@ -247,7 +259,7 @@
 		<label xml:lang="hu">LED 2 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED3" CV="16.0.279" default="2">
+	<variable item="Configurazione_LED3" CV="16.0.279" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 3 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 3: </label>
@@ -258,7 +270,7 @@
 		<label xml:lang="hu">LED 3 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED4" CV="16.0.280" default="2">
+	<variable item="Configurazione_LED4" CV="16.0.280" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 4 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 4: </label>
@@ -269,7 +281,7 @@
 		<label xml:lang="hu">LED 4 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED5" CV="16.0.281" default="2">
+	<variable item="Configurazione_LED5" CV="16.0.281" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 5 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 5: </label>
@@ -280,7 +292,7 @@
 		<label xml:lang="hu">LED 5 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED6" CV="16.0.282" default="2">
+	<variable item="Configurazione_LED6" CV="16.0.282" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 6 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 6: </label>
@@ -291,7 +303,7 @@
 		<label xml:lang="hu">LED 6 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED7" CV="16.0.283" default="2">
+	<variable item="Configurazione_LED7" CV="16.0.283" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 7 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 7: </label>
@@ -302,7 +314,7 @@
 		<label xml:lang="hu">LED 7 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED8" CV="16.0.284" default="2">
+	<variable item="Configurazione_LED8" CV="16.0.284" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 8 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 8: </label>
@@ -313,7 +325,7 @@
 		<label xml:lang="hu">LED 8 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED9" CV="16.0.285" default="2">
+	<variable item="Configurazione_LED9" CV="16.0.285" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 9 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 9: </label>
@@ -324,7 +336,7 @@
 		<label xml:lang="hu">LED 9 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED10" CV="16.0.286" default="2">
+	<variable item="Configurazione_LED10" CV="16.0.286" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 10 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 10: </label>
@@ -335,7 +347,7 @@
 		<label xml:lang="hu">LED 10 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED11" CV="16.0.287" default="2">
+	<variable item="Configurazione_LED11" CV="16.0.287" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 11 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 11: </label>
@@ -346,7 +358,7 @@
 		<label xml:lang="hu">LED 11 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED12" CV="16.0.288" default="2">
+	<variable item="Configurazione_LED12" CV="16.0.288" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 12 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 12: </label>
@@ -357,7 +369,7 @@
 		<label xml:lang="hu">LED 12 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED13" CV="16.0.289" default="2">
+	<variable item="Configurazione_LED13" CV="16.0.289" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 13 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 13: </label>
@@ -368,7 +380,7 @@
 		<label xml:lang="hu">LED 13 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED14" CV="16.0.290" default="2">
+	<variable item="Configurazione_LED14" CV="16.0.290" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 14 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 14: </label>
@@ -379,7 +391,7 @@
 		<label xml:lang="hu">LED 14 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED15" CV="16.0.291" default="2">
+	<variable item="Configurazione_LED15" CV="16.0.291" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 15 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 15: </label>
@@ -390,7 +402,7 @@
 		<label xml:lang="hu">LED 15 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_LED16" CV="16.0.292" default="2">
+	<variable item="Configurazione_LED16" CV="16.0.292" mask="XXXXVVVV" default="2">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>LED 16 Configuration: </label>
 		<label xml:lang="it">Configurazione LED 16: </label>
@@ -402,7 +414,7 @@
 	</variable>
 
 
-	<variable item="Configurazione_AUX1" CV="16.0.293" default="0">
+	<variable item="Configurazione_AUX1" CV="16.0.293" mask="XXXXVVVV" default="0">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>AUX 1 Configuration: </label>
 		<label xml:lang="it">Configurazione AUX 1: </label>
@@ -413,7 +425,7 @@
 		<label xml:lang="hu">AUX 1 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_AUX2" CV="16.0.294" default="0">
+	<variable item="Configurazione_AUX2" CV="16.0.294" mask="XXXXVVVV" default="0">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>AUX 2 Configuration: </label>
 		<label xml:lang="it">Configurazione AUX 2: </label>
@@ -424,7 +436,7 @@
 		<label xml:lang="hu">AUX 2 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_AUX3" CV="16.0.295" default="0">
+	<variable item="Configurazione_AUX3" CV="16.0.295" mask="XXXXVVVV" default="0">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>AUX 3 Configuration: </label>
 		<label xml:lang="it">Configurazione AUX 3: </label>
@@ -435,7 +447,7 @@
 		<label xml:lang="hu">AUX 3 Beállítása: </label>
 	</variable>
 
-	<variable item="Configurazione_AUX4" CV="16.0.296" default="0">
+	<variable item="Configurazione_AUX4" CV="16.0.296" mask="XXXXVVVV" default="0">
 		<xi:include href="/decoders/Sircam/outputLabels.xml"/>
 		<label>AUX 4 Configuration: </label>
 		<label xml:lang="it">Configurazione AUX 4: </label>
@@ -444,6 +456,226 @@
 		<label xml:lang="es">Configuración AUX 4: </label>
 		<label xml:lang="pl">Konfiguracja AUX 4: </label>
 		<label xml:lang="hu">AUX 4 Beállítása: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED1" CV="16.0.277" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 1 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 1: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 1: </label>
+		<label xml:lang="fr">Délai d'allumage LED 1: </label>
+		<label xml:lang="es">Retraso de encendido LED 1: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 1: </label>
+		<label xml:lang="hu">LED 1 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED2" CV="16.0.278" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 2 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 2: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 2: </label>
+		<label xml:lang="fr">Délai d'allumage LED 2: </label>
+		<label xml:lang="es">Retraso de encendido LED 2: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 2: </label>
+		<label xml:lang="hu">LED 2 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED3" CV="16.0.279" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 3 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 3: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 3: </label>
+		<label xml:lang="fr">Délai d'allumage LED 3: </label>
+		<label xml:lang="es">Retraso de encendido LED 3: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 3: </label>
+		<label xml:lang="hu">LED 3 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED4" CV="16.0.280" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 4 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 4: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 4: </label>
+		<label xml:lang="fr">Délai d'allumage LED 4: </label>
+		<label xml:lang="es">Retraso de encendido LED 4: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 4: </label>
+		<label xml:lang="hu">LED 4 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED5" CV="16.0.281" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 5 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 5: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 5: </label>
+		<label xml:lang="fr">Délai d'allumage LED 5: </label>
+		<label xml:lang="es">Retraso de encendido LED 5: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 5: </label>
+		<label xml:lang="hu">LED 5 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED6" CV="16.0.282" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 6 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 6: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 6: </label>
+		<label xml:lang="fr">Délai d'allumage LED 6: </label>
+		<label xml:lang="es">Retraso de encendido LED 6: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 6: </label>
+		<label xml:lang="hu">LED 6 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED7" CV="16.0.283" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 7 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 7: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 7: </label>
+		<label xml:lang="fr">Délai d'allumage LED 7: </label>
+		<label xml:lang="es">Retraso de encendido LED 7: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 7: </label>
+		<label xml:lang="hu">LED 7 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED8" CV="16.0.284" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 8 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 8: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 8: </label>
+		<label xml:lang="fr">Délai d'allumage LED 8: </label>
+		<label xml:lang="es">Retraso de encendido LED 8: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 8: </label>
+		<label xml:lang="hu">LED 8 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED9" CV="16.0.285" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 9 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 9: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 9: </label>
+		<label xml:lang="fr">Délai d'allumage LED 9: </label>
+		<label xml:lang="es">Retraso de encendido LED 9: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 9: </label>
+		<label xml:lang="hu">LED 9 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED10" CV="16.0.286" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 10 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 10: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 10: </label>
+		<label xml:lang="fr">Délai d'allumage LED 10: </label>
+		<label xml:lang="es">Retraso de encendido LED 10: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 10: </label>
+		<label xml:lang="hu">LED 10 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED11" CV="16.0.287" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 11 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 11: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 11: </label>
+		<label xml:lang="fr">Délai d'allumage LED 11: </label>
+		<label xml:lang="es">Retraso de encendido LED 11: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 11: </label>
+		<label xml:lang="hu">LED 11 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED12" CV="16.0.288" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 12 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 12: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 12: </label>
+		<label xml:lang="fr">Délai d'allumage LED 12: </label>
+		<label xml:lang="es">Retraso de encendido LED 12: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 12: </label>
+		<label xml:lang="hu">LED 12 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED13" CV="16.0.289" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 13 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 13: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 13: </label>
+		<label xml:lang="fr">Délai d'allumage LED 13: </label>
+		<label xml:lang="es">Retraso de encendido LED 13: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 13: </label>
+		<label xml:lang="hu">LED 13 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED14" CV="16.0.290" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 14 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 14: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 14: </label>
+		<label xml:lang="fr">Délai d'allumage LED 14: </label>
+		<label xml:lang="es">Retraso de encendido LED 14: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 14: </label>
+		<label xml:lang="hu">LED 14 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED15" CV="16.0.291" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 15 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 15: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 15: </label>
+		<label xml:lang="fr">Délai d'allumage LED 15: </label>
+		<label xml:lang="es">Retraso de encendido LED 15: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 15: </label>
+		<label xml:lang="hu">LED 15 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_LED16" CV="16.0.292" mask="XXXVXXXX" default="1">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>LED 16 delay on: </label>
+		<label xml:lang="it">Ritardo accensione LED 16: </label>
+		<label xml:lang="de">Einschaltverzögerung LED 16: </label>
+		<label xml:lang="fr">Délai d'allumage LED 16: </label>
+		<label xml:lang="es">Retraso de encendido LED 16: </label>
+		<label xml:lang="pl">Opóźnienie włączenia LED 16: </label>
+		<label xml:lang="hu">LED 16 bekapcsolási késleltetés: </label>
+	</variable>
+
+	<variable item="DLY_ON_AUX1" CV="16.0.293" mask="XXXVXXXX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>AUX 1 delay on: </label>
+		<label xml:lang="it">Ritardo accensione AUX 1: </label>
+		<label xml:lang="de">Einschaltverzögerung AUX 1: </label>
+		<label xml:lang="fr">Délai d'allumage AUX 1: </label>
+		<label xml:lang="es">Retraso de encendido AUX 1: </label>
+		<label xml:lang="pl">Opóźnienie włączenia AUX 1: </label>
+		<label xml:lang="hu">AUX 1 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_AUX2" CV="16.0.294" mask="XXXVXXXX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>AUX 2 delay on: </label>
+		<label xml:lang="it">Ritardo accensione AUX 2: </label>
+		<label xml:lang="de">Einschaltverzögerung AUX 2: </label>
+		<label xml:lang="fr">Délai d'allumage AUX 2: </label>
+		<label xml:lang="es">Retraso di encendido AUX 2: </label>
+		<label xml:lang="pl">Opóźnienie włączenia AUX 2: </label>
+		<label xml:lang="hu">AUX 2 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_AUX3" CV="16.0.295" mask="XXXVXXXX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>AUX 3 delay on: </label>
+		<label xml:lang="it">Ritardo accensione AUX 3: </label>
+		<label xml:lang="de">Einschaltverzögerung AUX 3: </label>
+		<label xml:lang="fr">Délai d'allumage AUX 3: </label>
+		<label xml:lang="es">Retraso de encendido AUX 3: </label>
+		<label xml:lang="pl">Opóźnienie włączenia AUX 3: </label>
+		<label xml:lang="hu">AUX 3 bekapcsolási késleltetés: </label>
+	</variable>
+	
+	<variable item="DLY_ON_AUX4" CV="16.0.296" mask="XXXVXXXX" default="0">
+		<xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/>
+		<label>AUX 4 delay on: </label>
+		<label xml:lang="it">Ritardo accensione AUX 4: </label>
+		<label xml:lang="de">Einschaltverzögerung AUX 4: </label>
+		<label xml:lang="fr">Délai d'allumage AUX 4: </label>
+		<label xml:lang="es">Retraso de encendido AUX 4: </label>
+		<label xml:lang="pl">Opóźnienie włączenia AUX 4: </label>
+		<label xml:lang="hu">AUX 4 bekapcsolási késleltetés: </label>
 	</variable>
 	
 	<variable item="AutoOFF_FIX_LED1" CV="16.0.297" default="0">

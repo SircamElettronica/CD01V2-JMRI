@@ -17,11 +17,11 @@
 		<label>
 			<text>LED 1 Configuration</text>
 			<text xml:lang="it">Configurazione LED 1</text>
-            <text xml:lang="de">Konfiguration LED 1</text>
-            <text xml:lang="fr">Configuration LED 1</text>
-            <text xml:lang="es">Configuración LED 1</text>
-            <text xml:lang="pl">Konfiguracja LED 1</text>
-            <text xml:lang="hu">LED 1 Beállítása</text>
+			<text xml:lang="de">Konfiguration LED 1</text>
+			<text xml:lang="fr">Configuration LED 1</text>
+			<text xml:lang="es">Configuración LED 1</text>
+			<text xml:lang="pl">Konfiguracja LED 1</text>
+			<text xml:lang="hu">LED 1 Beállítása</text>
 		</label>
 		<row>
 			<display item="Configurazione_LED1" label=""/>
@@ -77,10 +77,12 @@
 				</qualifier>
 				<display item="FADE_OUT_LED1" format="hslider" label=""/>
 			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED1" format="checkbox"/>
+			</griditem>
 		</grid>
 		<separator/>
-		
-		<!-- ******************* LED2 ******************* -->
+
 		<label>
 			<text>LED 2 Configuration</text>
 			<text xml:lang="it">Configurazione LED 2</text>
@@ -94,34 +96,62 @@
 			<display item="Configurazione_LED2" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED2"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED2" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED2"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED2" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED2"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED2" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED2"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED2" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED2"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED2" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED2"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED2" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED2"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED2" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED2"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED2" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED2" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED3 ******************* -->
 		<label>
 			<text>LED 3 Configuration</text>
 			<text xml:lang="it">Configurazione LED 3</text>
@@ -135,34 +165,62 @@
 			<display item="Configurazione_LED3" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED3"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED3" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED3"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED3" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED3"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED3" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED3"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED3" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED3"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED3" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED3"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED3" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED3"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED3" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED3"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED3" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED3" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED4 ******************* -->
 		<label>
 			<text>LED 4 Configuration</text>
 			<text xml:lang="it">Configurazione LED 4</text>
@@ -176,34 +234,62 @@
 			<display item="Configurazione_LED4" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED4"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED4" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED4"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED4" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED4"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED4" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED4"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED4" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED4"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED4" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED4"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED4" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED4"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED4" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED4"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED4" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED4" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED5 ******************* -->
 		<label>
 			<text>LED 5 Configuration</text>
 			<text xml:lang="it">Configurazione LED 5</text>
@@ -217,34 +303,62 @@
 			<display item="Configurazione_LED5" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED5"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED5" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED5"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED5" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED5"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED5" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED5"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED5" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED5"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED5" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED5"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED5" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED5</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED5</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED5"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED5</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED5</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED5" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED5</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED5</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED5"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED5</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED5</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED5" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED5" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED6 ******************* -->
 		<label>
 			<text>LED 6 Configuration</text>
 			<text xml:lang="it">Configurazione LED 6</text>
@@ -258,34 +372,62 @@
 			<display item="Configurazione_LED6" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED6"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED6" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED6"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED6" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED6"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED6" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED6"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED6" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED6"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED6" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED6"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED6" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED6</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED6</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED6"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED6</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED6</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED6" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED6</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED6</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED6"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED6</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED6</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED6" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED6" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED7 ******************* -->
 		<label>
 			<text>LED 7 Configuration</text>
 			<text xml:lang="it">Configurazione LED 7</text>
@@ -299,34 +441,62 @@
 			<display item="Configurazione_LED7" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED7"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED7" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED7"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED7" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED7"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED7" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED7"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED7" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED7"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED7" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED7"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED7" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED7</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED7</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED7"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED7</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED7</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED7" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED7</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED7</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED7"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED7</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED7</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED7" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED7" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED8 ******************* -->
 		<label>
 			<text>LED 8 Configuration</text>
 			<text xml:lang="it">Configurazione LED 8</text>
@@ -340,34 +510,62 @@
 			<display item="Configurazione_LED8" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED8"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED8" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED8"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED8" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED8"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED8" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED8"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED8" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED8"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED8" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED8"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED8" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED8</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED8</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED8"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED8</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED8</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED8" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED8</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED8</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED8"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED8</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED8</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED8" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED8" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED9 ******************* -->
 		<label>
 			<text>LED 9 Configuration</text>
 			<text xml:lang="it">Configurazione LED 9</text>
@@ -381,34 +579,62 @@
 			<display item="Configurazione_LED9" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED9"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED9" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED9"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED9" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED9"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED9" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED9"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED9" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED9"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED9" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED9"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED9" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED9</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED9</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED9"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED9</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED9</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED9" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED9</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED9</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED9"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED9</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED9</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED9" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED9" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED10 ******************* -->
 		<label>
 			<text>LED 10 Configuration</text>
 			<text xml:lang="it">Configurazione LED 10</text>
@@ -422,34 +648,62 @@
 			<display item="Configurazione_LED10" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED10"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED10" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED10"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED10" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED10"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED10" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED10"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED10" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED10"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED10" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED10"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED10" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED10</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED10</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED10"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED10</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED10</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED10" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED10</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED10</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED10"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED10</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED10</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED10" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED10" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED11 ******************* -->
 		<label>
 			<text>LED 11 Configuration</text>
 			<text xml:lang="it">Configurazione LED 11</text>
@@ -463,34 +717,62 @@
 			<display item="Configurazione_LED11" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED11"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED11" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED11"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED11" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED11"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED11" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED11"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED11" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED11"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED11" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED11"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED11" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED11</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED11</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED11"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED11</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED11</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED11" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED11</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED11</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED11"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED11</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED11</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED11" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED11" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED12 ******************* -->
 		<label>
 			<text>LED 12 Configuration</text>
 			<text xml:lang="it">Configurazione LED 12</text>
@@ -504,34 +786,62 @@
 			<display item="Configurazione_LED12" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED12"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED12" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED12"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED12" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED12"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED12" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED12"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED12" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED12"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED12" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED12"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED12" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED12</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED12</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED12"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED12</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED12</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED12" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED12</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED12</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED12"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED12</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED12</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED12" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED12" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED13 ******************* -->
 		<label>
 			<text>LED 13 Configuration</text>
 			<text xml:lang="it">Configurazione LED 13</text>
@@ -545,34 +855,62 @@
 			<display item="Configurazione_LED13" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED13"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED13" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED13"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED13" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED13"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED13" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED13"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED13" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED13"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED13" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED13"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED13" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED13</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED13</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED13"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED13</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED13</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED13" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED13</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED13</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED13"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED13</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED13</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED13" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED13" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED14 ******************* -->
 		<label>
 			<text>LED 14 Configuration</text>
 			<text xml:lang="it">Configurazione LED 14</text>
@@ -586,34 +924,62 @@
 			<display item="Configurazione_LED14" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED14"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED14" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED14"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED14" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED14"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED14" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED14"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED14" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED14"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED14" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED14"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED14" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED14</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED14</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED14"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED14</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED14</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED14" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED14</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED14</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED14"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED14</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED14</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED14" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED14" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED15 ******************* -->
 		<label>
 			<text>LED 15 Configuration</text>
 			<text xml:lang="it">Configurazione LED 15</text>
@@ -627,34 +993,62 @@
 			<display item="Configurazione_LED15" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED15"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED15" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED15"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED15" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED15"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED15" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED15"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED15" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED15"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED15" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED15"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED15" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED15</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED15</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED15"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED15</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED15</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED15" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED15</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED15</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED15"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED15</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED15</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED15" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED15" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* LED16 ******************* -->
 		<label>
 			<text>LED 16 Configuration</text>
 			<text xml:lang="it">Configurazione LED 16</text>
@@ -668,173 +1062,334 @@
 			<display item="Configurazione_LED16" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_LED16"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_LED16" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_LED16"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_LED16" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_LED16"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_LED16" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_LED16"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_LED16" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_LED16"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_LED16" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_LED16"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_LED16" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED16</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED16</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED16"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_LED16</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED16</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_LED16" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_LED16</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED16</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED16"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_LED16</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_LED16</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_LED16" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_LED16" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* AUX1 ******************* -->
 		<label>
 			<text>AUX 1 Configuration</text>
 			<text xml:lang="it">Configurazione AUX 1</text>
+			<text xml:lang="de">Konfiguration AUX 1</text>
+			<text xml:lang="fr">Configuration AUX 1</text>
+			<text xml:lang="es">Configuración AUX 1</text>
+			<text xml:lang="pl">Konfiguracja AUX 1</text>
+			<text xml:lang="hu">AUX 1 Beállítása</text>
 		</label>
 		<row>
 			<display item="Configurazione_AUX1" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_AUX1"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_AUX1" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_AUX1"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_AUX1" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_AUX1"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_AUX1" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_AUX1"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_AUX1" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_AUX1"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_AUX1" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_AUX1"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_AUX1" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX1</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX1</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX1"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_AUX1</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX1</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX1" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX1</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX1</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX1"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_AUX1</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX1</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX1" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_AUX1" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* AUX2 ******************* -->
 		<label>
 			<text>AUX 2 Configuration</text>
 			<text xml:lang="it">Configurazione AUX 2</text>
+			<text xml:lang="de">Konfiguration AUX 2</text>
+			<text xml:lang="fr">Configuration AUX 2</text>
+			<text xml:lang="es">Configuración AUX 2</text>
+			<text xml:lang="pl">Konfiguracja AUX 2</text>
+			<text xml:lang="hu">AUX 2 Beállítása</text>
 		</label>
 		<row>
 			<display item="Configurazione_AUX2" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_AUX2"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_AUX2" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_AUX2"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_AUX2" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_AUX2"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_AUX2" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_AUX2"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_AUX2" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_AUX2"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_AUX2" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_AUX2"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_AUX2" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX2"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_AUX2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX2" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX2"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_AUX2</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX2</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX2" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_AUX2" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* AUX3 ******************* -->
 		<label>
 			<text>AUX 3 Configuration</text>
 			<text xml:lang="it">Configurazione AUX 3</text>
+			<text xml:lang="de">Konfiguration AUX 3</text>
+			<text xml:lang="fr">Configuration AUX 3</text>
+			<text xml:lang="es">Configuración AUX 3</text>
+			<text xml:lang="pl">Konfiguracja AUX 3</text>
+			<text xml:lang="hu">AUX 3 Beállítása</text>
 		</label>
 		<row>
 			<display item="Configurazione_AUX3" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_AUX3"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_AUX3" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_AUX3"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_AUX3" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_AUX3"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_AUX3" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_AUX3"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_AUX3" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_AUX3"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_AUX3" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_AUX3"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_AUX3" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX3"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_AUX3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX3" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX3"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_AUX3</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX3</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX3" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_AUX3" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>
 
-		<!-- ******************* AUX4 ******************* -->
 		<label>
 			<text>AUX 4 Configuration</text>
 			<text xml:lang="it">Configurazione AUX 4</text>
+			<text xml:lang="de">Konfiguration AUX 4</text>
+			<text xml:lang="fr">Configuration AUX 4</text>
+			<text xml:lang="es">Configuración AUX 4</text>
+			<text xml:lang="pl">Konfiguracja AUX 4</text>
+			<text xml:lang="hu">AUX 4 Beállítása</text>
 		</label>
 		<row>
 			<display item="Configurazione_AUX4" label=""/>
 		</row>
 		<grid>
-			<griditem gridx="0" gridy="0" anchor="LINE_END"><display item="Luminosita_AUX4"/></griditem>
-			<griditem gridx="1" gridy="0"><display item="Luminosita_AUX4" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="1" anchor="LINE_END"><display item="AutoOFF_FIX_AUX4"/></griditem>
-			<griditem gridx="1" gridy="1"><display item="AutoOFF_FIX_AUX4" format="hslider" label=""/></griditem>
-			<griditem gridx="0" gridy="2" anchor="LINE_END"><display item="AutoOFF_RAND_AUX4"/></griditem>
-			<griditem gridx="1" gridy="2"><display item="AutoOFF_RAND_AUX4" format="hslider" label=""/></griditem>
-
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
+				<display item="Luminosita_AUX4"/>
+			</griditem>
+			<griditem gridx="1" gridy="0">
+				<display item="Luminosita_AUX4" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
+				<display item="AutoOFF_FIX_AUX4"/>
+			</griditem>
+			<griditem gridx="1" gridy="1">
+				<display item="AutoOFF_FIX_AUX4" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
+				<display item="AutoOFF_RAND_AUX4"/>
+			</griditem>
+			<griditem gridx="1" gridy="2">
+				<display item="AutoOFF_RAND_AUX4" format="hslider" label=""/>
+			</griditem>
 			<griditem gridx="0" gridy="3" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX4"/>
 			</griditem>
 			<griditem gridx="1" gridy="3">
-				<qualifier><variableref>Configurazione_AUX4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_IN_AUX4" format="hslider" label=""/>
 			</griditem>
-
 			<griditem gridx="0" gridy="4" anchor="LINE_END">
-				<qualifier><variableref>Configurazione_AUX4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX4"/>
 			</griditem>
 			<griditem gridx="1" gridy="4">
-				<qualifier><variableref>Configurazione_AUX4</variableref><relation>eq</relation><value>1</value></qualifier>
+				<qualifier>
+					<variableref>Configurazione_AUX4</variableref>
+					<relation>eq</relation>
+					<value>1</value>
+				</qualifier>
 				<display item="FADE_OUT_AUX4" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
+				<display item="DLY_ON_AUX4" format="checkbox"/>
 			</griditem>
 		</grid>
 		<separator/>

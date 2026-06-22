@@ -32,19 +32,6 @@
 			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29analog.xml"/>
 			<!-- Definizioni Sircam -->
 			<xi:include href="/decoders/Sircam/variablesCV.xml"/>
-			
-			<variable CV="7" item="Decoder Version" readOnly="yes">
-				<decVal/>
-				<label xml:lang="it">Versione Decoder: </label>
-				<label>Decoder Version</label>
-			</variable>
-			
-			<variable CV="8" readOnly="yes" default="13" item="Manufacturer">
-				<decVal/>
-				<label xml:lang="it">ID Costruttore: </label>
-				<label>Manufacturer ID</label>
-			</variable>
-			
 		</variables>
 		
 		<!-- Reset valore di fabbrica -->
