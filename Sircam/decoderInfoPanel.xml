@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) JMRI 2019 All rights reserved -->
+
+<pane xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
+    <name>Decoder info</name>
+	<name xml:lang="it">Informazioni decoder</name>
+	<name xml:lang="de">Decoder-Informationen</name>
+	<name xml:lang="fr">Informations décodeur</name>
+	<name xml:lang="es">Información del decodificador</name>
+	<name xml:lang="pl">Informacje o dekoderze</name>
+	<name xml:lang="hu">Dekóder információ</name>
+	
+	<column>
+
+		<display item="SERIAL_NUMBER"/>
+		<display item="PROG_DATE"/>
+		<display item="FW_DATE"/>
+		<display item="FW_REV"/>
+		
+	</column>
+</pane>

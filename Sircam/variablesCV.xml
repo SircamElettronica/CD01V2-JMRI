@@ -26,6 +26,105 @@
 		<label xml:lang="pl">ID Producenta</label>
 		<label xml:lang="hu">Gyártó ID</label>
 	</variable>
+	
+	<variable item="Timer_1_ON" CV="47" default="0">
+		<decVal min="0" max="255"/>
+		<label>Timer 1 ON value: </label>
+		<label xml:lang="it">Valore ON timer 1: </label>
+		<label xml:lang="de">Timer 1 ON-Wert: </label>
+		<label xml:lang="fr">Valeur ON du timer 1: </label>
+		<label xml:lang="es">Valor ON del temporizzador 1: </label>
+		<label xml:lang="pl">Wartość włączenia (ON) timera 1: </label>
+		<label xml:lang="hu">1. Időzítő BE (ON) értéke: </label>
+	</variable>
+	
+	<variable item="Timer_1_OFF" CV="48" default="0">
+		<decVal min="0" max="255"/>
+		<label>Timer 1 OFF value: </label>
+		<label xml:lang="it">Valore OFF timer 1: </label>
+		<label xml:lang="de">Timer 1 OFF-Wert: </label>
+		<label xml:lang="fr">Valeur OFF du timer 1: </label>
+		<label xml:lang="es">Valor OFF del temporizador 1: </label>
+		<label xml:lang="pl">Wartość wyłączenia (OFF) timera 1: </label>
+		<label xml:lang="hu">1. Időzítő KI (OFF) értéke: </label>
+	</variable>
+	
+	<variable item="Timer_2_ON" CV="49" default="0">
+		<decVal min="0" max="255"/>
+		<label>Timer 2 ON value: </label>
+		<label xml:lang="it">Valore ON timer 2: </label>
+		<label xml:lang="de">Timer 2 ON-Wert: </label>
+		<label xml:lang="fr">Valeur ON du timer 2: </label>
+		<label xml:lang="es">Valor ON del temporizador 2: </label>
+		<label xml:lang="pl">Wartość włączenia (ON) timera 2: </label>
+		<label xml:lang="hu">2. Időzítő BE (ON) értéke: </label>
+	</variable>
+	
+	<variable item="Timer_2_OFF" CV="50" default="0">
+		<decVal min="0" max="255"/>
+		<label>Timer 2 OFF value: </label>
+		<label xml:lang="it">Valore OFF timer 2: </label>
+		<label xml:lang="de">Timer 2 OFF-Wert: </label>
+		<label xml:lang="fr">Valeur OFF du timer 2: </label>
+		<label xml:lang="es">Valor OFF del temporizador 2: </label>
+		<label xml:lang="pl">Wartość wyłączenia (OFF) timera 2: </label>
+		<label xml:lang="hu">2. Időzítő KI (OFF) értéke: </label>
+	</variable>
+
+	<variable item="Timer_3_ON" CV="51" default="0">
+		<decVal min="0" max="255"/>
+		<label>Timer 3 ON value: </label>
+		<label xml:lang="it">Valore ON timer 3: </label>
+		<label xml:lang="de">Timer 3 ON-Wert: </label>
+		<label xml:lang="fr">Valeur ON du timer 3: </label>
+		<label xml:lang="es">Valor ON del temporizador 3: </label>
+		<label xml:lang="pl">Wartość włączenia (ON) timera 3: </label>
+		<label xml:lang="hu">3. Időzítő BE (ON) értéke: </label>
+	</variable>
+	
+	<variable item="Timer_3_OFF" CV="52" default="0">
+		<decVal min="0" max="255"/>
+		<label>Timer 3 OFF value: </label>
+		<label xml:lang="it">Valore OFF timer 3: </label>
+		<label xml:lang="de">Timer 3 OFF-Wert: </label>
+		<label xml:lang="fr">Valeur OFF du timer 3: </label>
+		<label xml:lang="es">Valor OFF del temporizador 3: </label>
+		<label xml:lang="pl">Wartość wyłączenia (OFF) timera 3: </label>
+		<label xml:lang="hu">3. Időzítő KI (OFF) értéke: </label>
+	</variable>
+	
+	<variable item="NEON_FLASH" CV="53" default="3">
+		<decVal min="0" max="255"/>
+		<label>Neon flicker count: </label>
+		<label xml:lang="it">Numero di lampeggi del neon: </label>
+		<label xml:lang="de">Neon flackern Anzahl: </label>
+		<label xml:lang="fr">Nombre de clignotements du néon: </label>
+		<label xml:lang="es">Número de parpadeos del neón: </label>
+		<label xml:lang="pl">Liczba mignięć neonu: </label>
+		<label xml:lang="hu">Neon villonások száma: </label>
+	</variable>
+	
+	<variable item="DLY_ON" CV="57" default="0">
+		<decVal min="0" max="255"/>
+		<label>Global fixed delay ON value: </label>
+		<label xml:lang="it">Ritardo globale fisso ON: </label>
+		<label xml:lang="de">Globaler fester Einschaltverzögerungswert: </label>
+		<label xml:lang="fr">Valeur du délai global fixe ON: </label>
+		<label xml:lang="es">Valor del retardo global fijo ON: </label>
+		<label xml:lang="pl">Globalne stałe opóźnienie włączenia (ON): </label>
+		<label xml:lang="hu">Globális fix bekapcsolási (ON) késleltetés: </label>
+	</variable>
+
+	<variable item="DLY_RAND" CV="58" default="1">
+		<decVal min="0" max="255"/>
+		<label>Global random delay value: </label>
+		<label xml:lang="it">Ritardo globale casuale: </label>
+		<label xml:lang="de">Globaler Zufallsverzögerungswert: </label>
+		<label xml:lang="fr">Valeur du délai global aléatoire: </label>
+		<label xml:lang="es">Valor del retardo global aleatorio: </label>
+		<label xml:lang="pl">Globalne losowe opóźnienie: </label>
+		<label xml:lang="hu">Globális véletlenszerű késleltetés: </label>
+	</variable>
 
 	<variable item="Luminosita_LED1" CV="16.0.257" default="7">
 		<decVal min="0" max="15"/>
@@ -2448,6 +2547,50 @@
 		<label xml:lang="es">Tiempo aleatorio OFF del generador aleatorio 8</label>
 		<label xml:lang="pl">Losowy czas OFF generatora losowego 8</label>
 		<label xml:lang="hu">8. véletlenszerű generátor véletlen KI ideje</label>
+	</variable>
+	
+	<variable item="SERIAL_NUMBER" CV="16.4.257:4" readOnly="yes">
+		<splitVal/>
+		<label>Serial Number</label>
+		<label xml:lang="it">Numero di serie</label>
+		<label xml:lang="de">Seriennummer</label>
+		<label xml:lang="fr">Numéro de série</label>
+		<label xml:lang="es">Número de serie</label>
+		<label xml:lang="pl">Numer seryjny</label>
+		<label xml:lang="hu">Sorozatszám</label>
+	</variable>
+
+	<variable item="PROG_DATE" CV="16.4.261:4" readOnly="yes">
+		<splitDateTimeVal display="default" base="1970-01-01T00:00:00"/>
+		<label>Production Date</label>
+		<label xml:lang="it">Data di produzione</label>
+		<label xml:lang="de">Herstellungsdatum</label>
+		<label xml:lang="fr">Date de fabrication</label>
+		<label xml:lang="es">Fecha de fabricación</label>
+		<label xml:lang="pl">Data produkcji</label>
+		<label xml:lang="hu">Gyártási dátum</label>
+	</variable>
+	
+	<variable item="FW_DATE" CV="16.4.265:4" readOnly="yes">
+		<splitDateTimeVal display="default" base="1970-01-01T00:00:00"/>
+		<label>Firmware Date</label>
+		<label xml:lang="it">Data del firmware</label>
+		<label xml:lang="de">Firmware-Datum</label>
+		<label xml:lang="fr">Date du firmware</label>
+		<label xml:lang="es">Fecha del firmware</label>
+		<label xml:lang="pl">Data oprogramowania układowego</label>
+		<label xml:lang="hu">Firmware dátuma</label>
+	</variable>
+	
+	<variable item="FW_REV" CV="16.4.269" default="4" readOnly="yes">
+		<decVal/>
+		<label>Firmware Revision</label>
+		<label xml:lang="it">Revisione firmware</label>
+		<label xml:lang="de">Firmware-Revision</label>
+		<label xml:lang="fr">Révision du firmware</label>
+		<label xml:lang="es">Revisión del firmware</label>
+		<label xml:lang="pl">Rewizja oprogramowania układowego</label>
+		<label xml:lang="hu">Firmware revízió</label>
 	</variable>
 
 	<constant item="PICV" default="31" comment="CV usata per l'indice primario PI"/>

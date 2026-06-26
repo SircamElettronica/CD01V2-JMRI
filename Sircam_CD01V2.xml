@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/decoder.xsl"?>
+<!-- Copyright (C) Sircam Elettronica SRL 2026 All rights reserved -->
+
+<decoder-config xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd" 
+				showEmptyPanes="no">
+	<version author="Nicola Camuffo" version="1" lastUpdated="20260619" />
+	<decoder>
+	
+		<!-- Modelli decoder -->
+		<family name="Illuminazione digitale" mfg="Sircam Elettronica">
+		  <model model="CD01V2" maxFnNum="31" numOuts="20"/>
+		</family>
+		
+		<!-- Modalità di programmazione -->
+		<programming direct="yes" paged="no" register="no" ops="yes">
+			<capability>
+				<name>Indexed CV access</name>
+				<parameter name="PI">31</parameter>
+				<parameter name="SI">32</parameter>
+				<parameter name="cvFirst">false</parameter>
+				<parameter name="skipDupIndexWrite">true</parameter>
+			</capability>
+		</programming>
+		
+		<!-- Definizioni -->
+		<variables>
+			<!-- Standard NMRA definitions -->
+			<xi:include href="http://jmri.org/xml/decoders/nmra/analogModeFunction.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/analogModeFunction_F12.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/analogModeFunction_F15.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/shortAndLongAddress.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddr.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddrDirection.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29address.xml"/>-->
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29analog.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29direction.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29speedSteps.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv21.22.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv21.22_F12.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv21.22_F15.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/decoderLockId16.xml"/>
+			<xi:include href="http://jmri.org/xml/decoders/nmra/userId.xml"/>
+			<!-- Definizioni Sircam -->
+			<xi:include href="/decoders/Sircam/variablesCV.xml"/>
+			<xi:include href="/decoders/Sircam/variablesCVfnMap.xml"/>
+		</variables>
+		
+		<!-- Reset valore di fabbrica -->
+		<resets>
+			<factReset label="Reset All CVs." CV="8" default="8"/>
+		</resets>
+		
+	</decoder>
+	
+	<!-- Pannelli Sircam -->
+	<xi:include href="/decoders/Sircam/LEDnAUXPanel.xml"/>
+	<xi:include href="/decoders/Sircam/fnMapPanel.xml"/>
+	<xi:include href="/decoders/Sircam/randomPanel.xml"/>
+	<xi:include href="/decoders/Sircam/advSettingsPanel.xml"/>
+	<xi:include href="/decoders/Sircam/decoderInfoPanel.xml"/>
+
+</decoder-config>
