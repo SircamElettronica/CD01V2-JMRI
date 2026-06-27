@@ -2020,6 +2020,94 @@
 		<label xml:lang="hu">8. véletlenszerű generátor kimenet választó</label>
 	</variable>
 	
+	<variable item="RANDOM_T_DIV_1" CV="16.3.257" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_2" CV="16.3.264" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_3" CV="16.3.271" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_4" CV="16.3.278" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_5" CV="16.3.285" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_6" CV="16.3.292" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_7" CV="16.3.299" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
+	<variable item="RANDOM_T_DIV_8" CV="16.3.306" mask="XVVVXXXX" default="7">
+		<xi:include href="/decoders/Sircam/rndTmrMultLabels.xml"/>
+		<label>Timer multiplier</label>
+		<label xml:lang="it">Moltiplicatore timer</label>
+		<label xml:lang="de">Timer-Multiplikator</label>
+		<label xml:lang="fr">Multiplicateur de minuterie</label>
+		<label xml:lang="es">Multiplicador de temporizador</label>
+		<label xml:lang="pl">Mnożnik timera</label>
+		<label xml:lang="hu">Időzítő szorzó</label>
+	</variable>
+	
 	<!-- ******************* RANDOM GENERATOR INPUT 1-8 ******************* -->
 	<variable item="RANDOM_IN_1" CV="16.3.258" default="0">
 		<decVal min="0" max="255"/>
@@ -2561,7 +2649,7 @@
 	</variable>
 
 	<variable item="PROG_DATE" CV="16.4.261:4" readOnly="yes">
-		<splitDateTimeVal display="default" base="1970-01-01T00:00:00"/>
+		<splitDateTimeVal display="default" base="1970-01-01T02:00:00"/>
 		<label>Production Date</label>
 		<label xml:lang="it">Data di produzione</label>
 		<label xml:lang="de">Herstellungsdatum</label>
@@ -2572,7 +2660,7 @@
 	</variable>
 	
 	<variable item="FW_DATE" CV="16.4.265:4" readOnly="yes">
-		<splitDateTimeVal display="default" base="1970-01-01T00:00:00"/>
+		<splitDateTimeVal display="default" base="1970-01-01T02:00:00"/>
 		<label>Firmware Date</label>
 		<label xml:lang="it">Data del firmware</label>
 		<label xml:lang="de">Firmware-Datum</label>

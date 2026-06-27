@@ -14,7 +14,8 @@
 	
 	<column>
 	
-		<label>
+<!-- ==================== BLOCCO 1 ==================== -->
+<label>
 			<text>Random Generator 1</text>
 			<text xml:lang="it">Generatore casuale 1</text>
 			<text xml:lang="de">Zufallsgenerator 1</text>
@@ -83,15 +84,7 @@
 						<relation>eq</relation>
 						<value>1</value>
 				</qualifier>
-				<display item="RANDOM_TON_FIX_1"/>
-			</griditem>
-			<griditem gridx="1" gridy="6">
-				<qualifier>
-						<variableref>RANDOM_EN_1</variableref>
-						<relation>eq</relation>
-						<value>1</value>
-				</qualifier>
-				<display item="RANDOM_TON_FIX_1" format="hslider" label=""/>
+				<display item="RANDOM_T_DIV_1"/>
 			</griditem>
 			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
@@ -99,7 +92,7 @@
 						<relation>eq</relation>
 						<value>1</value>
 				</qualifier>
-				<display item="RANDOM_TON_RND_1"/>
+				<display item="RANDOM_TON_FIX_1"/>
 			</griditem>
 			<griditem gridx="1" gridy="7">
 				<qualifier>
@@ -107,7 +100,15 @@
 						<relation>eq</relation>
 						<value>1</value>
 				</qualifier>
-				<display item="RANDOM_TON_RND_1" format="hslider" label=""/>
+				<display item="RANDOM_TON_FIX_1" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_1</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
 			</griditem>
 			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
@@ -115,7 +116,7 @@
 						<relation>eq</relation>
 						<value>1</value>
 				</qualifier>
-				<display item="RANDOM_TOFF_FIX_1"/>
+				<display item="RANDOM_TON_RND_1"/>
 			</griditem>
 			<griditem gridx="1" gridy="8">
 				<qualifier>
@@ -123,7 +124,7 @@
 						<relation>eq</relation>
 						<value>1</value>
 				</qualifier>
-				<display item="RANDOM_TOFF_FIX_1" format="hslider" label=""/>
+				<display item="RANDOM_TON_RND_1" format="hslider" label=""/>
 			</griditem>
 			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
@@ -131,9 +132,25 @@
 						<relation>eq</relation>
 						<value>1</value>
 				</qualifier>
-				<display item="RANDOM_TOFF_RND_1"/>
+				<display item="RANDOM_TOFF_FIX_1"/>
 			</griditem>
 			<griditem gridx="1" gridy="9">
+				<qualifier>
+						<variableref>RANDOM_EN_1</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_TOFF_FIX_1" format="hslider" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_1</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_TOFF_RND_1"/>
+			</griditem>
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_1</variableref>
 						<relation>eq</relation>
@@ -144,7 +161,8 @@
 		</grid>
 		<separator/>
 
-		<label>
+<!-- ==================== BLOCCO 2 ==================== -->
+<label>
 			<text>Random Generator 2</text>
 			<text xml:lang="it">Generatore casuale 2</text>
 			<text xml:lang="de">Zufallsgenerator 2</text>
@@ -154,10 +172,10 @@
 			<text xml:lang="hu">2. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="10" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_2" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="11" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_2</variableref>
 					<relation>eq</relation>
@@ -165,7 +183,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_2" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="12" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -178,7 +196,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_2"/>
 			</griditem>
-			<griditem gridx="0" gridy="13" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -186,7 +204,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_2"/>
 			</griditem>
-			<griditem gridx="0" gridy="14" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -199,7 +217,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_2"/>
 			</griditem>
-			<griditem gridx="0" gridy="15" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -207,7 +225,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_2"/>
 			</griditem>
-			<griditem gridx="0" gridy="16" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_2</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_2"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -215,7 +241,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_2"/>
 			</griditem>
-			<griditem gridx="1" gridy="16">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -223,7 +249,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_2" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="17" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_2</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -231,7 +265,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_2"/>
 			</griditem>
-			<griditem gridx="1" gridy="17">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -239,7 +273,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_2" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="18" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -247,7 +281,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_2"/>
 			</griditem>
-			<griditem gridx="1" gridy="18">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -255,7 +289,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_2" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="19" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -263,7 +297,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_2"/>
 			</griditem>
-			<griditem gridx="1" gridy="19">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_2</variableref>
 						<relation>eq</relation>
@@ -274,7 +308,8 @@
 		</grid>
 		<separator/>
 
-		<label>
+<!-- ==================== BLOCCO 3 ==================== -->
+<label>
 			<text>Random Generator 3</text>
 			<text xml:lang="it">Generatore casuale 3</text>
 			<text xml:lang="de">Zufallsgenerator 3</text>
@@ -284,10 +319,10 @@
 			<text xml:lang="hu">3. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="20" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_3" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="21" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_3</variableref>
 					<relation>eq</relation>
@@ -295,7 +330,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_3" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="22" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -308,7 +343,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_3"/>
 			</griditem>
-			<griditem gridx="0" gridy="23" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -316,7 +351,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_3"/>
 			</griditem>
-			<griditem gridx="0" gridy="24" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -329,7 +364,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_3"/>
 			</griditem>
-			<griditem gridx="0" gridy="25" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -337,7 +372,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_3"/>
 			</griditem>
-			<griditem gridx="0" gridy="26" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_3</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_3"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -345,7 +388,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_3"/>
 			</griditem>
-			<griditem gridx="1" gridy="26">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -353,7 +396,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_3" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="27" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_3</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -361,7 +412,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_3"/>
 			</griditem>
-			<griditem gridx="1" gridy="27">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -369,7 +420,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_3" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="28" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -377,7 +428,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_3"/>
 			</griditem>
-			<griditem gridx="1" gridy="28">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -385,7 +436,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_3" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="29" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -393,7 +444,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_3"/>
 			</griditem>
-			<griditem gridx="1" gridy="29">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_3</variableref>
 						<relation>eq</relation>
@@ -404,7 +455,8 @@
 		</grid>
 		<separator/>
 
-		<label>
+<!-- ==================== BLOCCO 4 ==================== -->
+<label>
 			<text>Random Generator 4</text>
 			<text xml:lang="it">Generatore casuale 4</text>
 			<text xml:lang="de">Zufallsgenerator 4</text>
@@ -414,10 +466,10 @@
 			<text xml:lang="hu">4. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="30" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_4" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="31" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_4</variableref>
 					<relation>eq</relation>
@@ -425,7 +477,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_4" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="32" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -438,7 +490,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_4"/>
 			</griditem>
-			<griditem gridx="0" gridy="33" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -446,7 +498,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_4"/>
 			</griditem>
-			<griditem gridx="0" gridy="34" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -459,7 +511,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_4"/>
 			</griditem>
-			<griditem gridx="0" gridy="35" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -467,7 +519,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_4"/>
 			</griditem>
-			<griditem gridx="0" gridy="36" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_4</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_4"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -475,7 +535,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_4"/>
 			</griditem>
-			<griditem gridx="1" gridy="36">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -483,7 +543,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_4" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="37" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_4</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -491,7 +559,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_4"/>
 			</griditem>
-			<griditem gridx="1" gridy="37">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -499,7 +567,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_4" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="38" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -507,7 +575,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_4"/>
 			</griditem>
-			<griditem gridx="1" gridy="38">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -515,7 +583,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_4" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="39" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -523,7 +591,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_4"/>
 			</griditem>
-			<griditem gridx="1" gridy="39">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_4</variableref>
 						<relation>eq</relation>
@@ -534,7 +602,8 @@
 		</grid>
 		<separator/>
 
-		<label>
+<!-- ==================== BLOCCO 5 ==================== -->
+<label>
 			<text>Random Generator 5</text>
 			<text xml:lang="it">Generatore casuale 5</text>
 			<text xml:lang="de">Zufallsgenerator 5</text>
@@ -544,10 +613,10 @@
 			<text xml:lang="hu">5. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="40" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_5" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="41" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_5</variableref>
 					<relation>eq</relation>
@@ -555,7 +624,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_5" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="42" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -568,7 +637,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_5"/>
 			</griditem>
-			<griditem gridx="0" gridy="43" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -576,7 +645,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_5"/>
 			</griditem>
-			<griditem gridx="0" gridy="44" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -589,7 +658,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_5"/>
 			</griditem>
-			<griditem gridx="0" gridy="45" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -597,7 +666,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_5"/>
 			</griditem>
-			<griditem gridx="0" gridy="46" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_5</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_5"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -605,7 +682,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_5"/>
 			</griditem>
-			<griditem gridx="1" gridy="46">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -613,7 +690,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_5" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="47" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_5</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -621,7 +706,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_5"/>
 			</griditem>
-			<griditem gridx="1" gridy="47">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -629,7 +714,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_5" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="48" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -637,7 +722,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_5"/>
 			</griditem>
-			<griditem gridx="1" gridy="48">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -645,7 +730,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_5" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="49" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -653,7 +738,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_5"/>
 			</griditem>
-			<griditem gridx="1" gridy="49">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_5</variableref>
 						<relation>eq</relation>
@@ -664,7 +749,8 @@
 		</grid>
 		<separator/>
 
-		<label>
+<!-- ==================== BLOCCO 6 ==================== -->
+<label>
 			<text>Random Generator 6</text>
 			<text xml:lang="it">Generatore casuale 6</text>
 			<text xml:lang="de">Zufallsgenerator 6</text>
@@ -674,10 +760,10 @@
 			<text xml:lang="hu">6. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="50" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_6" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="51" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_6</variableref>
 					<relation>eq</relation>
@@ -685,7 +771,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_6" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="52" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -698,7 +784,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_6"/>
 			</griditem>
-			<griditem gridx="0" gridy="53" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -706,7 +792,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_6"/>
 			</griditem>
-			<griditem gridx="0" gridy="54" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -719,7 +805,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_6"/>
 			</griditem>
-			<griditem gridx="0" gridy="55" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -727,7 +813,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_6"/>
 			</griditem>
-			<griditem gridx="0" gridy="56" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_6</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_6"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -735,7 +829,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_6"/>
 			</griditem>
-			<griditem gridx="1" gridy="56">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -743,7 +837,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_6" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="57" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_6</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -751,7 +853,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_6"/>
 			</griditem>
-			<griditem gridx="1" gridy="57">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -759,7 +861,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_6" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="58" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -767,7 +869,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_6"/>
 			</griditem>
-			<griditem gridx="1" gridy="58">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -775,7 +877,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_6" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="59" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -783,7 +885,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_6"/>
 			</griditem>
-			<griditem gridx="1" gridy="59">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_6</variableref>
 						<relation>eq</relation>
@@ -794,7 +896,8 @@
 		</grid>
 		<separator/>
 
-		<label>
+<!-- ==================== BLOCCO 7 ==================== -->
+<label>
 			<text>Random Generator 7</text>
 			<text xml:lang="it">Generatore casuale 7</text>
 			<text xml:lang="de">Zufallsgenerator 7</text>
@@ -804,10 +907,10 @@
 			<text xml:lang="hu">7. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="60" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_7" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="61" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_7</variableref>
 					<relation>eq</relation>
@@ -815,7 +918,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_7" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="62" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -828,7 +931,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_7"/>
 			</griditem>
-			<griditem gridx="0" gridy="63" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -836,7 +939,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_7"/>
 			</griditem>
-			<griditem gridx="0" gridy="64" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -849,7 +952,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_7"/>
 			</griditem>
-			<griditem gridx="0" gridy="65" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -857,7 +960,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_7"/>
 			</griditem>
-			<griditem gridx="0" gridy="66" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_7</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_7"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -865,7 +976,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_7"/>
 			</griditem>
-			<griditem gridx="1" gridy="66">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -873,7 +984,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_7" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="67" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_7</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -881,7 +1000,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_7"/>
 			</griditem>
-			<griditem gridx="1" gridy="67">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -889,7 +1008,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_7" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="68" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -897,7 +1016,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_7"/>
 			</griditem>
-			<griditem gridx="1" gridy="68">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -905,7 +1024,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_7" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="69" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -913,7 +1032,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_7"/>
 			</griditem>
-			<griditem gridx="1" gridy="69">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_7</variableref>
 						<relation>eq</relation>
@@ -924,6 +1043,7 @@
 		</grid>
 		<separator/>
 
+		<!-- ==================== BLOCCO 8 ==================== -->
 		<label>
 			<text>Random Generator 8</text>
 			<text xml:lang="it">Generatore casuale 8</text>
@@ -934,10 +1054,10 @@
 			<text xml:lang="hu">8. véletlenszerű generátor</text>
 		</label>
 		<grid>
-			<griditem gridx="0" gridy="70" anchor="LINE_END">
+			<griditem gridx="0" gridy="0" anchor="LINE_END">
 				<display item="RANDOM_EN_8" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="71" anchor="LINE_END">
+			<griditem gridx="0" gridy="1" anchor="LINE_END">
 				<qualifier>
 					<variableref>RANDOM_EN_8</variableref>
 					<relation>eq</relation>
@@ -945,7 +1065,7 @@
 				</qualifier>
 				<display item="RANDOM_AUTO_8" format="checkbox"/>
 			</griditem>
-			<griditem gridx="0" gridy="72" anchor="LINE_END">
+			<griditem gridx="0" gridy="2" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -958,7 +1078,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_SEL_8"/>
 			</griditem>
-			<griditem gridx="0" gridy="73" anchor="LINE_END">
+			<griditem gridx="0" gridy="3" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -966,7 +1086,7 @@
 				</qualifier>
 				<display item="RANDOM_OUT_SEL_8"/>
 			</griditem>
-			<griditem gridx="0" gridy="74" anchor="LINE_END">
+			<griditem gridx="0" gridy="4" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -979,7 +1099,7 @@
 				</qualifier>
 				<display item="RANDOM_IN_8"/>
 			</griditem>
-			<griditem gridx="0" gridy="75" anchor="LINE_END">
+			<griditem gridx="0" gridy="5" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -987,7 +1107,15 @@
 				</qualifier>
 				<display item="RANDOM_OUT_8"/>
 			</griditem>
-			<griditem gridx="0" gridy="76" anchor="LINE_END">
+			<griditem gridx="0" gridy="6" anchor="LINE_END">
+				<qualifier>
+						<variableref>RANDOM_EN_8</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="RANDOM_T_DIV_8"/>
+			</griditem>
+			<griditem gridx="0" gridy="7" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -995,7 +1123,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_8"/>
 			</griditem>
-			<griditem gridx="1" gridy="76">
+			<griditem gridx="1" gridy="7">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -1003,7 +1131,15 @@
 				</qualifier>
 				<display item="RANDOM_TON_FIX_8" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="77" anchor="LINE_END">
+			<griditem gridx="2" gridy="7">
+				<qualifier>
+						<variableref>RANDOM_EN_8</variableref>
+						<relation>eq</relation>
+						<value>1</value>
+				</qualifier>
+				<display item="MioCalcoloPersonalizzato" label=""/>
+			</griditem>
+			<griditem gridx="0" gridy="8" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -1011,7 +1147,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_8"/>
 			</griditem>
-			<griditem gridx="1" gridy="77">
+			<griditem gridx="1" gridy="8">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -1019,7 +1155,7 @@
 				</qualifier>
 				<display item="RANDOM_TON_RND_8" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="78" anchor="LINE_END">
+			<griditem gridx="0" gridy="9" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -1027,7 +1163,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_8"/>
 			</griditem>
-			<griditem gridx="1" gridy="78">
+			<griditem gridx="1" gridy="9">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -1035,7 +1171,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_FIX_8" format="hslider" label=""/>
 			</griditem>
-			<griditem gridx="0" gridy="79" anchor="LINE_END">
+			<griditem gridx="0" gridy="10" anchor="LINE_END">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>
@@ -1043,7 +1179,7 @@
 				</qualifier>
 				<display item="RANDOM_TOFF_RND_8"/>
 			</griditem>
-			<griditem gridx="1" gridy="79">
+			<griditem gridx="1" gridy="10">
 				<qualifier>
 						<variableref>RANDOM_EN_8</variableref>
 						<relation>eq</relation>

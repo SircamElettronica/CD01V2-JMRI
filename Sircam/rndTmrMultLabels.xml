@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/decoder.xsl"?>
+<!-- Copyright (C) Sircam Elettronica SRL 2026 All rights reserved -->
+
+<enumVal xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
+
+    <enumChoice choice="x128" value="0">
+		<choice>x128</choice>
+	</enumChoice>
+	
+    <enumChoice choice="x64" value="1">
+		<choice>x64</choice>
+	</enumChoice>
+	
+	<enumChoice choice="x32" value="2">
+		<choice>x32</choice>
+	</enumChoice>
+
+	<enumChoice choice="x16" value="3">
+		<choice>x16</choice>
+	</enumChoice>
+	
+	<enumChoice choice="x8" value="4">
+		<choice>x8</choice>
+	</enumChoice>
+	
+    <enumChoice choice="x4" value="5">
+		<choice>x4</choice>
+	</enumChoice>
+	
+	<enumChoice choice="x2" value="6">
+		<choice>x2</choice>
+	</enumChoice>
+
+	<enumChoice choice="x1" value="7">
+		<choice>x1</choice>
+	</enumChoice>
+
+</enumVal>
