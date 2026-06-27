@@ -2680,6 +2680,17 @@
 		<label xml:lang="pl">Rewizja oprogramowania układowego</label>
 		<label xml:lang="hu">Firmware revízió</label>
 	</variable>
+	
+	<variable item="ProductID" CV="16.4.270:3" readOnly="yes">
+		<splitVal/>
+		<label>Product ID</label>
+		<label xml:lang="it">Identificativo prodotto</label>
+		<label xml:lang="de">Produkt-ID</label>
+		<label xml:lang="fr">Identifiant du produit</label>
+		<label xml:lang="es">Identificatore del producto</label>
+		<label xml:lang="pl">Identyfikator produktu</label>
+		<label xml:lang="hu">Termék azonosító</label>
+	</variable>
 
 	<constant item="PICV" default="31" comment="CV usata per l'indice primario PI"/>
 	<constant item="SICV" default="32" comment="CV usata per l'indice secondario SI"/>

@@ -11,7 +11,7 @@
 	
 		<!-- Modelli decoder -->
 		<family name="Illuminazione digitale" mfg="Sircam Elettronica">
-		  <model model="CD01V2" maxFnNum="31" numOuts="20"/>
+		  <model model="CD01V2" productID="2593417382" maxFnNum="31" numOuts="20"/>
 		</family>
 		
 		<!-- Modalità di programmazione -->
@@ -34,7 +34,7 @@
 			<xi:include href="http://jmri.org/xml/decoders/nmra/shortAndLongAddress.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddr.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/consistAddrDirection.xml"/>
-			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29address.xml"/>-->
+			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29address.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29analog.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29direction.xml"/>
 			<xi:include href="http://jmri.org/xml/decoders/nmra/cv29speedSteps.xml"/>

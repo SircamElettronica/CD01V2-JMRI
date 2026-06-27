@@ -4,11 +4,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/decoder-4-15-2.xsd">
 	<!-- INPUT CVs -->
-	<variable CV="16.1.257" item="CVIA_FW_R1" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.257" item="CVIA_FW_R1" mask="VXXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.257" item="CVIA_RV_R1" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.257" item="CVIA_STP_R1" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.257" item="CVIA_MOV_R1" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.1.257" item="CVIA_F0_R1" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.257" item="CVIA_F0_R1" mask="XXXXVXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.257" item="CVIA_F0N_R1" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.257" item="CVIA_F1_R1" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.257" item="CVIA_F1N_R1" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -73,10 +73,10 @@
 	<variable CV="16.1.265" item="CVII_F31_R1" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.265" item="CVII_F31N_R1" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.267" item="CVIA_FW_R2" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.1.267" item="CVIA_RV_R2" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.267" item="CVIA_RV_R2" mask="XVXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.267" item="CVIA_STP_R2" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.267" item="CVIA_MOV_R2" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.1.267" item="CVIA_F0_R2" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.267" item="CVIA_F0_R2" mask="XXXXVXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.267" item="CVIA_F0N_R2" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.267" item="CVIA_F1_R2" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.267" item="CVIA_F1N_R2" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -146,7 +146,7 @@
 	<variable CV="16.1.277" item="CVIA_MOV_R3" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.277" item="CVIA_F0_R3" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.277" item="CVIA_F0N_R3" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.1.277" item="CVIA_F1_R3" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.277" item="CVIA_F1_R3" mask="XXXXXXVX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.277" item="CVIA_F1N_R3" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.278" item="CVIB_F2_R3" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.278" item="CVIB_F2N_R3" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -216,7 +216,7 @@
 	<variable CV="16.1.287" item="CVIA_F0N_R4" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.287" item="CVIA_F1_R4" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.287" item="CVIA_F1N_R4" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.1.288" item="CVIB_F2_R4" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.288" item="CVIB_F2_R4" mask="VXXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.288" item="CVIB_F2N_R4" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.288" item="CVIB_F3_R4" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.288" item="CVIB_F3N_R4" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -288,7 +288,7 @@
 	<variable CV="16.1.298" item="CVIB_F2N_R5" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.298" item="CVIB_F3_R5" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.298" item="CVIB_F3N_R5" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.1.298" item="CVIB_F4_R5" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.1.298" item="CVIB_F4_R5" mask="XXXXVXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.298" item="CVIB_F4N_R5" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.298" item="CVIB_F5_R5" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.1.298" item="CVIB_F5N_R5" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -1112,7 +1112,7 @@
 	<variable CV="16.2.259" item="CVOC_AUX4_R1" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.259" item="CVOC_AUX3_R1" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.259" item="CVOC_AUX2_R1" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.259" item="CVOC_AUX1_R1" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.259" item="CVOC_AUX1_R1" mask="XXXXXXXV" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.262" item="CVOA_LED16_R2" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.262" item="CVOA_LED15_R2" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.262" item="CVOA_LED14_R2" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -1131,7 +1131,7 @@
 	<variable CV="16.2.263" item="CVOB_LED1_R2" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.264" item="CVOC_AUX4_R2" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.264" item="CVOC_AUX3_R2" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.264" item="CVOC_AUX2_R2" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.264" item="CVOC_AUX2_R2" mask="XXXXXXVX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.264" item="CVOC_AUX1_R2" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.267" item="CVOA_LED16_R3" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.267" item="CVOA_LED15_R3" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -1150,25 +1150,25 @@
 	<variable CV="16.2.268" item="CVOB_LED2_R3" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.268" item="CVOB_LED1_R3" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.269" item="CVOC_AUX4_R3" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.269" item="CVOC_AUX3_R3" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.269" item="CVOC_AUX3_R3" mask="XXXXXVXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.269" item="CVOC_AUX2_R3" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.269" item="CVOC_AUX1_R3" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED16_R4" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED15_R4" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED14_R4" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED13_R4" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED12_R4" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED11_R4" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED10_R4" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.272" item="CVOA_LED9_R4" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED8_R4" mask="VXXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED7_R4" mask="XVXXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED6_R4" mask="XXVXXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED5_R4" mask="XXXVXXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED4_R4" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED3_R4" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED2_R4" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.273" item="CVOB_LED1_R4" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED16_R4" mask="VXXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED15_R4" mask="XVXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED14_R4" mask="XXVXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED13_R4" mask="XXXVXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED12_R4" mask="XXXXVXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED11_R4" mask="XXXXXVXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED10_R4" mask="XXXXXXVX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.272" item="CVOA_LED9_R4" mask="XXXXXXXV" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED8_R4" mask="VXXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED7_R4" mask="XVXXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED6_R4" mask="XXVXXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED5_R4" mask="XXXVXXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED4_R4" mask="XXXXVXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED3_R4" mask="XXXXXVXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED2_R4" mask="XXXXXXVX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.273" item="CVOB_LED1_R4" mask="XXXXXXXV" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.274" item="CVOC_AUX4_R4" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.274" item="CVOC_AUX3_R4" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.274" item="CVOC_AUX2_R4" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
@@ -1189,7 +1189,7 @@
 	<variable CV="16.2.278" item="CVOB_LED3_R5" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.278" item="CVOB_LED2_R5" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.278" item="CVOB_LED1_R5" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
-	<variable CV="16.2.279" item="CVOC_AUX4_R5" mask="XXXXVXXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
+	<variable CV="16.2.279" item="CVOC_AUX4_R5" mask="XXXXVXXX" default="1"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.279" item="CVOC_AUX3_R5" mask="XXXXXVXX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.279" item="CVOC_AUX2_R5" mask="XXXXXXVX" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>
 	<variable CV="16.2.279" item="CVOC_AUX1_R5" mask="XXXXXXXV" default="0"><xi:include href="http://jmri.org/xml/decoders/parts/enum-NoYes.xml"/></variable>

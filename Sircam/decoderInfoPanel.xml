@@ -18,6 +18,7 @@
 		<display item="PROG_DATE"/>
 		<display item="FW_DATE"/>
 		<display item="FW_REV"/>
+		<display item="ProductID"/>
 		
 	</column>
 </pane>
