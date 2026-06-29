@@ -2681,7 +2681,7 @@
 		<label xml:lang="hu">Firmware revízió</label>
 	</variable>
 	
-	<variable item="ProductID" CV="16.4.270:3" readOnly="yes">
+	<variable item="ProductID" CV="16.4.270:4" readOnly="yes">
 		<splitVal/>
 		<label>Product ID</label>
 		<label xml:lang="it">Identificativo prodotto</label>
